@@ -4,11 +4,11 @@ export const navLinks = [
     label: "Início",
     href: "/",
   },
-  {
-    id: 2,
-    label: "O clube",
-    href: "/clube",
-  },
+  // {
+  //   id: 2,
+  //   label: "O clube",
+  //   href: "/clube",
+  // },
   {
     id: 3,
     label: "A Equipa",
@@ -40,3 +40,5 @@ export const navLinks = [
     href: "/loja",
   },
 ];
+
+export const colors = {};
