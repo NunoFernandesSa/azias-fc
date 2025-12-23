@@ -1,22 +1,11 @@
-import { Link, Outlet } from "react-router-dom";
+import NavBar from "@/components/layout/NavBar";
+import { Outlet } from "react-router-dom";
 
 function App() {
   return (
     <>
       <header className="border-b">
-        <nav className="container flex items-center justify-between py-4">
-          <div className="font-bold">AZIAS FC</div>
-          <div className="flex gap-4 text-sm">
-            <Link to="/">Início</Link>
-            <Link to="/clube">O clube</Link>
-            <Link to="/equipa">A Equipa</Link>
-            <Link to="/calendário">Calendário</Link>
-            <Link to="/galeria">Galeria</Link>
-            <Link to="/parceiros">Parceiros e Apoiadores</Link>
-            <Link to="/contacto">Contacto</Link>
-            <Link to="/loja">Loja</Link>
-          </div>
-        </nav>
+        <NavBar />
       </header>
 
       <main className="flex-1">

@@ -27,11 +27,11 @@ const router = createBrowserRouter([
       { path: "/", element: <Home /> },
       { path: "/clube", element: <Club /> },
       { path: "/equipa", element: <Team /> },
-      { path: "/calendário", element: <CalendarAndResults /> },
-      { path: "/loja", element: <Store /> },
       { path: "/galeria", element: <Gallery /> },
+      { path: "/calendario", element: <CalendarAndResults /> },
       { path: "/parceiros", element: <PartnersAndSponsors /> },
       { path: "/contacto", element: <Contact /> },
+      { path: "/loja", element: <Store /> },
     ],
   },
 ]);
