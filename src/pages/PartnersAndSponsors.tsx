@@ -1,3 +1,3 @@
-export default function PartnersAndSponsors() {
+export function PartnersAndSponsors() {
   return <></>;
 }

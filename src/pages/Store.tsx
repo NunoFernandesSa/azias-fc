@@ -1,3 +1,3 @@
-export default function Store() {
+export function Store() {
   return <></>;
 }

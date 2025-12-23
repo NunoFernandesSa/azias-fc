@@ -1,3 +1,3 @@
-export default function CalendarAndResults() {
+export function CalendarAndResults() {
   return <></>;
 }

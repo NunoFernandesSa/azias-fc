@@ -10,14 +10,16 @@ import "@/styles/index.css";
 import App from "./app/App.tsx";
 
 // ---------- Routes ----------
-import Home from "./pages/Home.tsx";
-import Club from "./pages/Club.tsx";
-import Team from "./pages/Team.tsx";
-import CalendarAndResults from "./pages/CalendarAndResults.tsx";
-import Contact from "./pages/Contact.tsx";
-import PartnersAndSponsors from "./pages/PartnersAndSponsors.tsx";
-import Gallery from "./pages/Gallery.tsx";
-import Store from "./pages/Store.tsx";
+import {
+  Home,
+  Club,
+  Team,
+  CalendarAndResults,
+  Contact,
+  PartnersAndSponsors,
+  Gallery,
+  Store,
+} from "@/pages/index.ts";
 
 const router = createBrowserRouter([
   {

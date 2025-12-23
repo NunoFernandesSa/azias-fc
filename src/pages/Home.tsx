@@ -1,14 +1,22 @@
-import Container from "@/components/Container";
-import Hero from "@/components/layout/Hero";
-import NextMatchCard from "@/components/ui/NextMatchCard";
+import {
+  Container,
+  Hero,
+  NextMatchCard,
+  NextMatchCardContent,
+  NextMatchCardFooter,
+} from "@/components/index";
 
-export default function Home() {
+export function Home() {
   return (
     <Container>
       <Hero />
 
       <div className="grid grid-cols-1 md:grid-cols-2 gap-4 mt-12">
-        <NextMatchCard />
+        <NextMatchCard
+          title="Proximo Jogo"
+          cardContent={<NextMatchCardContent />}
+          cardFooter={<NextMatchCardFooter />}
+        />
       </div>
     </Container>
   );

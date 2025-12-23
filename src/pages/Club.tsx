@@ -1,3 +1,3 @@
-export default function Club() {
+export function Club() {
   return <></>;
 }
