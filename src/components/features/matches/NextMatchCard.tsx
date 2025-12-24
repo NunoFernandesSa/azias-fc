@@ -1,3 +1,4 @@
+// ---------- components ----------
 import {
   Card,
   CardContent,
@@ -6,26 +7,23 @@ import {
   CardTitle,
 } from "../../ui/card";
 
-function NextMatchCard({
+// ---------- types ----------
+import type { NextMatchCardProps } from "@/types/index.ts";
+
+export function NextMatchCard({
   title,
   cardContent,
   cardFooter,
-}: {
-  title: string;
-  cardContent?: React.ReactNode;
-  cardFooter?: React.ReactNode;
-}) {
+  cardFooterClassName,
+  className,
+}: NextMatchCardProps) {
   return (
-    <Card className="bg-primary text-primary-foreground">
+    <Card className={className}>
       <CardHeader>
         <CardTitle className="text-3xl font-bold">{title}</CardTitle>
       </CardHeader>
       <CardContent>{cardContent}</CardContent>
-      <CardFooter className="flex flex-col items-start justify-center gap-2">
-        {cardFooter}
-      </CardFooter>
+      <CardFooter className={cardFooterClassName}>{cardFooter}</CardFooter>
     </Card>
   );
 }
-
-export { NextMatchCard };

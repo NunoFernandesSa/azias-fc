@@ -1,11 +1,11 @@
-import NavBar from "@/components/layout/NavBar";
+import { Navbar } from "@/components/index.ts";
 import { Outlet } from "react-router-dom";
 
 function App() {
   return (
     <>
       <header className="w-full flex items-center justify-center h-32 bg-primary">
-        <NavBar />
+        <Navbar />
       </header>
 
       <main className="flex-1">

@@ -1,5 +1,6 @@
 // ---------- Containers ----------
 export * from "@/components/features/containers/Container";
+export * from "@/components/features/containers/Section";
 
 // ---------- UI ----------
 export * from "./ui/button";

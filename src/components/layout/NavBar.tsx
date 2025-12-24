@@ -2,9 +2,9 @@
 import { Link } from "react-router-dom";
 
 // Constants
-import { navLinks } from "@/app/config/constants/constants";
+import { navLinks } from "@/config/constants/constants";
 
-export default function Navbar() {
+export function Navbar() {
   return (
     <nav className="container flex items-center justify-between w-full">
       {/* ----- Logo ----- */}

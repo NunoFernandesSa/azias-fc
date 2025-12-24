@@ -7,7 +7,7 @@ import { RouterProvider, createBrowserRouter } from "react-router-dom";
 import "@/styles/index.css";
 
 // ---------- components ----------
-import App from "./app/App.tsx";
+import App from "./App.tsx";
 
 // ---------- Routes ----------
 import {

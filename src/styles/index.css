@@ -36,12 +36,13 @@
 
   /* Le bleu exact #080d4d */
   --primary: oklch(0.18 0.06 268);
+  /* --primary: oklch(33.781% 0.18824 267.91); */
   --primary-foreground: oklch(
     0.98 0.01 260
   ); /* Blanc cassé pour la lisibilité */
 
   /* Fond du site (Blanc pur comme la maquette) */
-  --background: oklch(1 0 0);
+  --background: oklch(96.115% 0.00011 271.152);
   --foreground: oklch(0.15 0.05 268); /* Texte très sombre pour le contraste */
 
   /* --- ÉLÉMENTS SECONDAIRES --- */

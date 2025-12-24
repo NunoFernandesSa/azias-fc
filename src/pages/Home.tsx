@@ -4,6 +4,7 @@ import {
   NextMatchCard,
   NextMatchCardContent,
   NextMatchCardFooter,
+  Section,
 } from "@/components/index";
 
 export function Home() {
@@ -11,13 +12,15 @@ export function Home() {
     <Container>
       <Hero />
 
-      <div className="grid grid-cols-1 md:grid-cols-2 gap-4 mt-12">
+      <Section>
         <NextMatchCard
-          title="Proximo Jogo"
+          title="Próximo Jogo"
           cardContent={<NextMatchCardContent />}
           cardFooter={<NextMatchCardFooter />}
+          cardFooterClassName="flex flex-col items-start justify-center gap-2"
+          className="bg-primary text-primary-foreground"
         />
-      </div>
+      </Section>
     </Container>
   );
 }

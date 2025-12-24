@@ -41,4 +41,11 @@ export const navLinks = [
   },
 ];
 
-export const colors = {};
+export const match = {
+  date: "Domingo, 14 de Dezembro de 2025",
+  time: "12:00",
+  team1: "Azias FC",
+  team2: "Porto FC",
+  team1Logo: "/logo-azias-fc.jpg",
+  team2Logo: "/logo-azias-fc.jpg",
+};
