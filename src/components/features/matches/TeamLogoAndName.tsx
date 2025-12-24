@@ -6,9 +6,9 @@ export function TeamLogoAndName({ teamLogo, teamName }: TeamLogoAndNameProps) {
       <img
         src={teamLogo}
         alt="logo da equipa"
-        className="w-36 h-36 rounded-lg shadow-lg shadow-primary-foreground/25"
+        className="w-24 h-24 lg:w-36 lg:h-36 rounded-lg shadow-lg shadow-primary-foreground/25"
       />
-      <p className="text-2xl font-bold">{teamName}</p>
+      <p className="text-lg md:text-2xl lg:text-3xl font-bold">{teamName}</p>
     </div>
   );
 }

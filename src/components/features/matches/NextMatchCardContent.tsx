@@ -1,6 +1,6 @@
 import { Badge, Button, TeamLogoAndName } from "@/components/index.ts";
 import type { MatchProps } from "@/types/index.ts";
-import { Calendar, MapPin, Trophy } from "lucide-react";
+import { Calendar } from "lucide-react";
 import { Link } from "react-router-dom";
 
 export function NextMatchCardContent({
@@ -15,14 +15,13 @@ export function NextMatchCardContent({
   time,
 }: MatchProps) {
   return (
-    <div className="grid grid-cols-2 gap-6 lg:p-8">
+    <div className="grid grid-cols-1 lg:grid-cols-2 gap-6 lg:p-8">
       {/* left side */}
       <div className="flex flex-col gap-6">
-        <p className="text-2xl font-bold flex items-center gap-2">
-          <Calendar className="mr-2" /> {date} - {time}H
+        <p className="text-sm lg:text-xl font-bold flex items-center gap-2">
+          {date} - {time}H
         </p>
-        <p className="flex items-center gap-2 text-lg font-bold">
-          <MapPin className="mr-2" />{" "}
+        <p className="flex flex-col items-start gap-2 text-sm lg:text-xl font-bold">
           {playAtHome ? (
             <Badge variant="secondary">EN CASA</Badge>
           ) : (
@@ -30,8 +29,8 @@ export function NextMatchCardContent({
           )}
           {address}
         </p>
-        <p className="flex items-center gap-2 text-lg font-bold">
-          <Trophy className="mr-2" /> {championship}
+        <p className="text-sm lg:text-2xl font-bold flex items-center gap-2">
+          {championship}
         </p>
 
         <Button
@@ -51,7 +50,7 @@ export function NextMatchCardContent({
           teamLogo={teamPlayingAtHomeLogo}
           teamName={teamPlayingAtHome}
         />
-        <p className="text-6xl font-bold">x</p>
+        <p className="text-2xl md:text-4xl lg:text-4xl font-bold">x</p>
         <TeamLogoAndName
           teamLogo={teamPlayingAwayLogo}
           teamName={teamPlayingAway}

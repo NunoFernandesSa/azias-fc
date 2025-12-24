@@ -1,9 +1,9 @@
-import { Button, Section } from "@/components/index.ts";
+import { Button, Container } from "@/components/index.ts";
 import { Link } from "react-router-dom";
 
 export function Hero() {
   return (
-    <Section>
+    <Container className="container mx-auto py-6">
       <div className="relative h-[calc(100vh-300px)] flex items-end border overflow-hidden">
         <img
           src="/bg-img.jpg"
@@ -37,6 +37,6 @@ export function Hero() {
           </div>
         </div>
       </div>
-    </Section>
+    </Container>
   );
 }
