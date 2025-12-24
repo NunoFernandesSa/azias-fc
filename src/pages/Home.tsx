@@ -12,6 +12,7 @@ import {
 } from "@/components/index";
 
 import { match } from "@/config/constants/constants";
+import { Users } from "lucide-react";
 import { Link } from "react-router-dom";
 
 export function Home() {
@@ -49,8 +50,14 @@ export function Home() {
                 mollit anim id est laborum.
               </p>
 
-              <Button asChild>
-                <Link to="/equipa">Descobrir a equipa</Link>
+              <Button
+                asChild
+                className="bg-secondary/80 text-secondary-foreground hover:bg-secondary font-bold"
+              >
+                <Link to="/equipa">
+                  <Users className="mr-2 h-4 w-4" />
+                  Descobrir a equipa
+                </Link>
               </Button>
             </CardContent>
           </div>
