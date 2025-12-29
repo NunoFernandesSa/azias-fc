@@ -43,12 +43,12 @@ export const navLinks = [
 
 export const match = {
   championship: "Campeonato INATEL",
-  date: "Domingo, 14 de Dezembro de 2025",
+  date: "Domingo, 14 Dezembro 2025",
   time: "12:00",
   teamPlayingAtHome: "Azias FC",
   teamPlayingAway: "ADPB",
   address: "Campo da Manguela, AZIAS Ponte da Barca",
-  teamPlayingAtHomeLogo: "/logo-azias-fc.jpg",
+  teamPlayingAtHomeLogo: "/azias-fc-logo.png",
   teamPlayingAwayLogo: "/adpb-logo.jpg",
   playAtHome: true,
 };

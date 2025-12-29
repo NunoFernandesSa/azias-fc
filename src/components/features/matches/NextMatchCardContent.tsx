@@ -1,11 +1,16 @@
-import { Badge, Button, TeamLogoAndName } from "@/components/index.ts";
+import { Button, TeamLogoAndName } from "@/components/index.ts";
 import type { MatchProps } from "@/types/index.ts";
-import { Calendar } from "lucide-react";
+import {
+  Calendar,
+  CalendarDays,
+  Dot,
+  FlagTriangleRight,
+  MapPin,
+} from "lucide-react";
 import { Link } from "react-router-dom";
 
 export function NextMatchCardContent({
   date,
-  playAtHome,
   address,
   championship,
   teamPlayingAtHome,
@@ -17,22 +22,23 @@ export function NextMatchCardContent({
   return (
     <div className="grid grid-cols-1 lg:grid-cols-2 gap-6 lg:p-8">
       {/* left side */}
-      <div className="flex flex-col gap-6">
-        <p className="text-sm lg:text-xl font-bold flex items-center gap-2">
-          {date} - {time}H
-        </p>
-        <p className="flex flex-col items-start gap-2 text-sm lg:text-xl font-bold">
-          {playAtHome ? (
-            <Badge variant="secondary">EN CASA</Badge>
-          ) : (
-            <Badge variant="secondary">FORA</Badge>
-          )}
-          {address}
-        </p>
-        <p className="text-sm lg:text-2xl font-bold flex items-center gap-2">
-          {championship}
+      <div className="flex flex-col gap-3">
+        {/* date */}
+        <p className="text-sm lg:text-xl font-bold flex items-center">
+          <CalendarDays className="mr-2" /> {date} <Dot /> {time}H
         </p>
 
+        {/* address */}
+        <p className="font-bold flex items-center">
+          <MapPin className="mr-2" /> {address}
+        </p>
+
+        {/* championship */}
+        <p className="font-bold flex items-center">
+          <FlagTriangleRight className="mr-2" /> {championship}
+        </p>
+
+        {/* button */}
         <Button
           asChild
           className="bg-secondary cursor-pointer hover:bg-secondary/80 text-foreground font-bold w-fit"
@@ -50,7 +56,9 @@ export function NextMatchCardContent({
           teamLogo={teamPlayingAtHomeLogo}
           teamName={teamPlayingAtHome}
         />
-        <p className="text-2xl md:text-4xl lg:text-4xl font-bold">x</p>
+        <p className="text-2xl md:text-4xl lg:text-4xl font-bold text-secondary">
+          x
+        </p>
         <TeamLogoAndName
           teamLogo={teamPlayingAwayLogo}
           teamName={teamPlayingAway}

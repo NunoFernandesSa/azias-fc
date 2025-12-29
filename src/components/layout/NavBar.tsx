@@ -10,7 +10,7 @@ export function Navbar() {
       {/* ----- Logo ----- */}
       <Link to="/" className="flex items-center gap-1 group">
         <img
-          src="/logo-azias-fc.jpg"
+          src="/azias-fc-logo.png"
           alt="Logo da equipa FC Azias"
           className="w-24 h-24 rounded-full"
         />

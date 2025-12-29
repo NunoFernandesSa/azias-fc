@@ -4,7 +4,7 @@ import { Outlet } from "react-router-dom";
 function App() {
   return (
     <>
-      <header className="w-full flex items-center justify-center h-32 bg-primary">
+      <header className="w-full flex items-center justify-center h-24 bg-primary">
         <Navbar />
       </header>
 
