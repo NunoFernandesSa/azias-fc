@@ -1,14 +1,14 @@
 // React router
-import { Link } from "react-router-dom";
+import { Link, NavLink } from "react-router-dom";
 
 // Constants
 import { navLinks } from "@/config/constants/constants";
 
 export function Navbar() {
   return (
-    <nav className="container flex items-center justify-between w-full">
+    <nav className="h-full w-full">
       {/* ----- Logo ----- */}
-      <Link to="/" className="flex items-center gap-1 group">
+      <Link to="/">
         <img
           src="/azias-fc-logo.png"
           alt="Logo da equipa FC Azias"
@@ -18,16 +18,20 @@ export function Navbar() {
       </Link>
 
       {/* ---------- Desktop Nav ---------- */}
-      <div className="hidden lg:flex items-center gap-2">
-        <div className="flex items-center gap-6">
+      <div className="lg:h-2/3">
+        <div className="flex flex-col items-start justify-center gap-6 h-full">
           {navLinks.map(({ href, label, id }) => (
-            <Link
+            <NavLink
               key={id}
               to={href}
-              className="font-semibold text-md text-white px-3 py-1"
+              className={({ isActive }) =>
+                `font-semibold text-md hover:text-primary hover:bg-white px-3 py-3 w-full ease-in-out duration-500 ${
+                  isActive ? "bg-white text-primary" : "text-white"
+                }`
+              }
             >
               {label}
-            </Link>
+            </NavLink>
           ))}
         </div>
       </div>
