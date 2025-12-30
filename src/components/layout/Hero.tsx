@@ -14,12 +14,12 @@ export function Hero() {
         />
 
         {/* Content */}
-        <div className="w-full bg-linear-to-r from-primary via-primary/50 to-background/50 px-12 py-12 flex flex-col justify-center">
+        <div className="w-full bg-linear-to-r from-primary via-primary/70 to-background/20 px-12 py-12 flex flex-col justify-center">
           <h2 className="lg:text-8xl text-6xl font-bold text-primary-foreground">
             AZIAS FC
           </h2>
           <p className="lg:text-2xl text-xl text-primary-foreground/80 mt-6">
-            Paixão, união e futebol desde 2023
+            Um clube. Uma família. Uma paixão.
           </p>
 
           <div className="flex items-center gap-6 mt-6">
