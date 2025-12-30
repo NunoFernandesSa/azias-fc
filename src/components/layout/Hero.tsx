@@ -29,7 +29,7 @@ export function Hero() {
               </Link>
             </Button>
 
-            <Button asChild variant="secondary">
+            <Button asChild variant="outline" className="hover:bg-white/80">
               <Link to="/contacto">
                 <Phone /> Entrar em contato
               </Link>
