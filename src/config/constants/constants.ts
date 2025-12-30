@@ -47,3 +47,31 @@ export const match = {
   teamPlayingAwayLogo: "/adpb-logo.jpg",
   playAtHome: true,
 };
+
+export const sponsors = [
+  {
+    id: 1,
+    name: "Restaurante Pizzaria São Sebastião",
+    logo: "/cafe-logo.png",
+  },
+  {
+    id: 2,
+    name: "2",
+    logo: "",
+  },
+  {
+    id: 3,
+    name: "3",
+    logo: "",
+  },
+  {
+    id: 4,
+    name: "4",
+    logo: "",
+  },
+  {
+    id: 5,
+    name: "5",
+    logo: "",
+  },
+];

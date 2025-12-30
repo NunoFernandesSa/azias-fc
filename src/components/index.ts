@@ -6,6 +6,7 @@ export * from "./ui/button";
 export * from "./ui/card";
 export * from "./ui/select";
 export * from "./ui/badge";
+export * from "./ui/aspect-ratio";
 
 // ---------- Layout ----------
 export * from "@/components/layout/Hero";
