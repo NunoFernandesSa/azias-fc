@@ -1,4 +1,5 @@
 // ---------- components ----------
+import { Button } from "@/components/index.ts";
 import {
   Card,
   CardContent,
@@ -9,6 +10,8 @@ import {
 
 // ---------- types ----------
 import type { NextMatchCardProps } from "@/types/index.ts";
+import { Link } from "react-router-dom";
+import { Calendar } from "lucide-react";
 
 export function NextMatchCard({
   title,
@@ -30,7 +33,15 @@ export function NextMatchCard({
         className="absolute w-full h-full object-cover bottom-0 -z-10 rounded-lg"
       />
       <CardHeader>
-        <CardTitle className="text-3xl font-bold">{title}</CardTitle>
+        <CardTitle className="flex flex-col md:flex-row items-center justify-between text-3xl font-bold gap-3 md:gap-0">
+          {title}
+          <Button asChild variant={"secondary"}>
+            <Link to="/calendario">
+              <Calendar className="mr-2" />
+              Ver calendário
+            </Link>
+          </Button>
+        </CardTitle>
       </CardHeader>
       <CardContent>{cardContent}</CardContent>
       <CardFooter className={cardFooterClassName}>{cardFooter}</CardFooter>
