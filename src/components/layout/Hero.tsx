@@ -5,7 +5,7 @@ import { Link } from "react-router-dom";
 export function Hero() {
   return (
     <Container>
-      <div className="relative h-[calc(100vh-300px)] flex items-end border overflow-hidden">
+      <div className="relative flex items-end border overflow-hidden h-[calc(100vh-100px)]">
         {/* Background Image */}
         <img
           src="/bg-hero.jpg"
