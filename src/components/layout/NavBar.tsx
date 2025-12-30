@@ -25,8 +25,10 @@ export function Navbar() {
             key={id}
             to={href}
             className={({ isActive }) =>
-              `font-semibold text-md hover:text-primary hover:bg-white px-3 py-3 w-full ease-in-out duration-500 rounded ${
-                isActive ? "bg-background text-primary" : "text-white"
+              `font-semibold text-md hover:text-primary hover:bg-gradient-to-r from-white to-white/50 px-6 py-3 w-full ease-in-out duration-500 ${
+                isActive
+                  ? "bg-gradient-to-r from-white to-white/50 text-primary"
+                  : "text-white"
               }`
             }
           >
