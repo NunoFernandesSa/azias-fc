@@ -12,7 +12,13 @@ import { Link } from "react-router-dom";
 
 export function HomePageSponsorsSection() {
   return (
-    <Card>
+    <Card className="relative bg-gradient-to-r from-primary to-primary/75 rounded-lg overflow-hidden text-primary-foreground">
+      <img
+        src="/bg-match-card.jpg"
+        alt=""
+        className="absolute top-0 left-0 w-full h-full object-cover -z-10"
+      />
+
       <CardHeader>
         <CardTitle className="text-3xl font-bold">
           Obrigado a quem acredita no Azias FC

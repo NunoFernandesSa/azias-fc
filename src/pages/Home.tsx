@@ -38,7 +38,7 @@ export function Home() {
         <HomePageSponsorsSection />
       </Container>
 
-      <Container className="mx-3 lg:mx-16 my-16 lg:my-16">
+      <Container className="mx-3 lg:mx-16 my-16 grid grid-cols-1 xl:grid-cols-[3fr_7fr] gap-6">
         <div className=""></div>
 
         <iframe
