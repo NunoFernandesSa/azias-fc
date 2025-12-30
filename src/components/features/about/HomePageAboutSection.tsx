@@ -15,14 +15,12 @@ export function HomePageAboutSection() {
           <CardTitle className="text-3xl font-bold">A nossa história</CardTitle>
         </CardHeader>
 
-        <CardContent className="text-primary text-lg font-semibold grid grid-cols-1 lg:grid-cols-2 items-center gap-6">
-          <div className="flex flex-col gap-6">
-            <p>
-              Fundado em Azias, Ponte da Barça, o Azias FC nasceu da paixão pelo
-              futebol e da vontade de unir a comunidade local em torno de
-              valores sólidos: espírito de equipa, respeito e compromisso.
-            </p>
-          </div>
+        <CardContent className="text-primary grid grid-cols-1 lg:grid-cols-2 items-center gap-6">
+          <p className="font-semibold">
+            Fundado em Azias, Ponte da Barça, o Azias FC nasceu da paixão pelo
+            futebol e da vontade de unir a comunidade local em torno de valores
+            sólidos: espírito de equipa, respeito e compromisso.
+          </p>
         </CardContent>
       </div>
     </Card>

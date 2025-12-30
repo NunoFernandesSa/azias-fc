@@ -19,13 +19,17 @@ export function HomePageSponsorsSection() {
         </CardTitle>
       </CardHeader>
       <CardContent>
-        <p>Os nossos patrocinadores são parceiros essenciais do Azias FC.</p>
-        <p>
+        <p className="font-semibold">
+          Os nossos patrocinadores são parceiros essenciais do Azias FC.
+        </p>
+        <p className="font-semibold">
           Graças à sua confiança e apoio, o nosso clube pode continuar a
           crescer, promovendo o futebol local e incutindo valores de paixão,
           respeito e união.
         </p>
-        <p>Juntos, estamos a construir o futuro do Azias FC.</p>
+        <p className="font-semibold">
+          Juntos, estamos a construir o futuro do Azias FC.
+        </p>
 
         <Button
           asChild
