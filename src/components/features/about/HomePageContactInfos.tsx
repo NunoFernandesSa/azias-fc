@@ -1,23 +1,42 @@
 import {
+  Button,
   Card,
   CardContent,
   CardHeader,
   Container,
 } from "@/components/index.ts";
+import { FaFacebook, FaInstagram } from "react-icons/fa";
+import { Link } from "react-router-dom";
 
 export function HomePageContactInfos() {
   return (
     <Container className="mx-3 lg:mx-16 my-16 grid grid-cols-1 xl:grid-cols-[3fr_7fr] gap-6">
       <Card className="bg-gradient-to-br from-primary to-primary/80 text-primary-foreground">
         <CardHeader>
-          <p className="text-3xl font-bold">Informações de Contato</p>
+          <p className="text-3xl font-bold">Informações de Contacto</p>
         </CardHeader>
         <CardContent className="flex flex-col gap-6 text-lg font-semibold">
-          <p>📲 +258 84 222 222</p>
+          <p>📞 +351 258 258 258</p>
           <p>📧 contato@azias-fc.com</p>
           <p className="flex flex-col">
             📍 Campo de Futebol da Manguela,<span> Azias Ponte da Barca</span>
           </p>
+
+          <div className="flex gap-6">
+            <Button variant={"secondary"} className="cursor-pointer">
+              <Link
+                to="https://www.facebook.com/profile.php?id=61565229806192"
+                target="_blank"
+              >
+                <FaFacebook />
+              </Link>
+            </Button>
+            <Button variant={"secondary"} className="cursor-pointer">
+              <Link to="https://www.instagram.com/aziasfc" target="_blank">
+                <FaInstagram />
+              </Link>
+            </Button>
+          </div>
         </CardContent>
       </Card>
 
