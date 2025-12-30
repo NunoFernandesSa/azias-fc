@@ -20,11 +20,11 @@ export function NextMatchCardContent({
   time,
 }: MatchProps) {
   return (
-    <div className="grid grid-cols-1 lg:grid-cols-2 items-center justify-center">
+    <div className="grid grid-cols-1 lg:grid-cols-2 items-center justify-center gap-6 lg:gap-0">
       {/* left side */}
       <div className="flex flex-col gap-3">
         {/* date */}
-        <p className="text-sm lg:text-xl font-bold flex items-center">
+        <p className="text-md lg:text-xl font-bold flex items-center">
           <CalendarDays className="mr-2" /> {date} <Dot /> {time}H
         </p>
 
@@ -41,7 +41,7 @@ export function NextMatchCardContent({
         {/* button */}
         <Button
           asChild
-          className="bg-secondary cursor-pointer hover:bg-secondary/80 text-foreground font-bold w-fit"
+          className="bg-secondary cursor-pointer hover:bg-secondary/80 text-foreground font-bold w-full lg:w-1/2"
         >
           <Link to="/calendario">
             <Calendar className="mr-2" />

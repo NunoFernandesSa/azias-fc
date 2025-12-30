@@ -7,7 +7,7 @@ export function TeamLogoAndName({ teamLogo, teamName }: TeamLogoAndNameProps) {
       <img
         src={teamLogo}
         alt="logo da equipa"
-        className="w-24 h-24 lg:w-40 lg:h-40 rounded-lg shadow-lg shadow-white/20"
+        className="w-24 h-24 md:w-36 md:h-36 lg:w-46 lg:h-46 rounded-lg shadow-lg shadow-white/20"
       />
     </div>
   );
