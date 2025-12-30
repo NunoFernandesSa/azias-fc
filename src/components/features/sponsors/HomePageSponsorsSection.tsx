@@ -27,7 +27,12 @@ export function HomePageSponsorsSection() {
         </p>
         <p>Juntos, estamos a construir o futuro do Azias FC.</p>
 
-        <Button asChild variant={"secondary"} size={"lg"} className="my-6">
+        <Button
+          asChild
+          variant={"secondary"}
+          size={"lg"}
+          className="my-6 w-full md:w-1/2 lg:w-1/3"
+        >
           <Link to="/patrocinadores">Torne-se patrocinador</Link>
         </Button>
       </CardContent>
