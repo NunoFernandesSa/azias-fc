@@ -11,7 +11,7 @@ import { Link } from "react-router-dom";
 export function HomePageTeamSection() {
   const title = "A nossa equipa";
   return (
-    <Card className="relative bg-primary/80 text-primary-foreground min-h-[300px]">
+    <Card className="relative bg-primary/60 text-primary-foreground min-h-[300px]">
       <img
         src="/team.jpg"
         alt=""
