@@ -1,11 +1,11 @@
 import {
   Button,
   Card,
-  CardContent,
   CardFooter,
   CardHeader,
   CardTitle,
 } from "@/components/index";
+import { Trophy, User } from "lucide-react";
 import { Link } from "react-router-dom";
 
 export function HomePageTeamSection() {
@@ -20,16 +20,19 @@ export function HomePageTeamSection() {
 
       <CardHeader>
         <CardTitle className="text-3xl font-bold">{title}</CardTitle>
-      </CardHeader>
-      <CardContent>
         <p className="text-lg">Um grupo unido, dedicado e apaixonado.</p>
-      </CardContent>
+      </CardHeader>
 
-      <CardFooter>
-        <Button
-          className="bg-secondary cursor-pointer hover:bg-secondary/80 text-foreground font-bold"
-          asChild
-        >
+      <CardFooter className=" flex-1 flex-col items-start justify-end gap-6 mt-12">
+        <div className="text-2xl md:text-4xl font-bold flex items-center gap-2">
+          <User className="mr-2 rounded-full bg-secondary p-3" size={60} />
+          27 Jogadores
+        </div>
+        <div className="text-2xl md:text-4xl font-bold flex items-center gap-2">
+          <Trophy className="mr-2 rounded-full bg-secondary p-3" size={60} />
+          Campeonato INATEL
+        </div>
+        <Button asChild variant={"secondary"} className="w-full sm:w-1/2">
           <Link to="/equipa" className="text-start">
             Ver plantel completo
           </Link>
