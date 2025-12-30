@@ -18,15 +18,9 @@ export function HomePageAboutSection() {
         <CardContent className="text-primary text-lg font-semibold grid grid-cols-1 lg:grid-cols-2 items-center gap-6">
           <div>
             <p>
-              Fundado em AZIAS, Ponte da Barca, o Azias FC é um clube empenhado
-              em promoção do futebol local, do espírito de equipa e dos valores
-              desportivos.
-            </p>
-            <p>
-              Duis aute irure dolor in reprehenderit in voluptate velit esse
-              cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
-              cupidatat non proident, sunt in culpa qui officia deserunt mollit
-              anim id est laborum.
+              Fundado em Azias, Ponte da Barça, o Azias FC nasceu da paixão pelo
+              futebol e da vontade de unir a comunidade local em torno de
+              valores sólidos: espírito de equipa, respeito e compromisso.
             </p>
           </div>
 
@@ -36,8 +30,7 @@ export function HomePageAboutSection() {
                 2023
               </span>
               <span className="text-primary bg-white p-3 rounded">
-                {" "}
-                Fundação do club
+                ⚽ Fundação do club
               </span>
             </div>
             <div className="text-primary text-lg font-semibold">
@@ -45,8 +38,7 @@ export function HomePageAboutSection() {
                 2024
               </span>
               <span className="text-primary bg-white p-3 rounded">
-                {" "}
-                Entrada na INATEL
+                🏆 Entrada na INATEL
               </span>
             </div>
             <div className="text-primary text-lg font-semibold">
@@ -54,8 +46,7 @@ export function HomePageAboutSection() {
                 2025
               </span>
               <span className="text-primary bg-white p-3 rounded">
-                {" "}
-                Crescimento e novos objetivos
+                🚀 Crescimento e novos objetivos
               </span>
             </div>
           </div>
