@@ -27,9 +27,9 @@ export function Home() {
         <HomePageAboutSection />
       </Container>
 
-      <div className="grid grid-cols-1 lg:grid-cols-2 gap-6">
+      <Container className="mx-3 lg:mx-16 my-16 lg:my-16">
         <HomePageSponsorsSection />
-      </div>
+      </Container>
     </>
   );
 }
