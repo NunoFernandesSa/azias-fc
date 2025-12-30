@@ -4,40 +4,35 @@ export const navLinks = [
     label: "Início",
     href: "/",
   },
-  // {
-  //   id: 2,
-  //   label: "O clube",
-  //   href: "/clube",
-  // },
   {
-    id: 3,
-    label: "A Equipa",
-    href: "/equipa",
-  },
-  {
-    id: 4,
+    id: 2,
     label: "Calendário",
     href: "/calendario",
   },
   {
-    id: 5,
+    id: 3,
+    label: "Equipa",
+    href: "/equipa",
+  },
+  {
+    id: 4,
     label: "Galeria",
     href: "/galeria",
   },
   {
+    id: 5,
+    label: "Loja",
+    href: "/loja",
+  },
+  {
     id: 6,
-    label: "Parceiros e Apoiadores",
-    href: "/parceiros",
+    label: "Patrocinadores",
+    href: "/patrocinadores",
   },
   {
     id: 7,
     label: "Contacto",
     href: "/contacto",
-  },
-  {
-    id: 8,
-    label: "Loja",
-    href: "/loja",
   },
 ];
 

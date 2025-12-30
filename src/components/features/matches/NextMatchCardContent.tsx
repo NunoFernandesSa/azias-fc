@@ -13,14 +13,12 @@ export function NextMatchCardContent({
 }: MatchProps) {
   return (
     <>
-      <div className="flex items-center justify-center gap-6">
+      <div className="flex items-center justify-center gap-3 lg:gap-6">
         <TeamLogoAndName
           teamLogo={teamPlayingAtHomeLogo}
           teamName={teamPlayingAtHome}
         />
-        <p className="text-2xl md:text-4xl lg:text-4xl font-bold text-secondary">
-          VS
-        </p>
+        <p className="text-xl lg:text-4xl font-semibold text-secondary">VS</p>
         <TeamLogoAndName
           teamLogo={teamPlayingAwayLogo}
           teamName={teamPlayingAway}

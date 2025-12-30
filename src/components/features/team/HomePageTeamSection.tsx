@@ -34,7 +34,7 @@ export function HomePageTeamSection() {
         </div>
         <Button asChild variant={"secondary"} className="w-full sm:w-1/2">
           <Link to="/equipa" className="text-start">
-            Ver plantel completo
+            Conhecer os nossos jogadores
           </Link>
         </Button>
       </CardFooter>

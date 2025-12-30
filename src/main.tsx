@@ -31,7 +31,7 @@ const router = createBrowserRouter([
       { path: "/equipa", element: <Team /> },
       { path: "/galeria", element: <Gallery /> },
       { path: "/calendario", element: <CalendarAndResults /> },
-      { path: "/parceiros", element: <PartnersAndSponsors /> },
+      { path: "/patrocinadores", element: <PartnersAndSponsors /> },
       { path: "/contacto", element: <Contact /> },
       { path: "/loja", element: <Store /> },
     ],

@@ -18,18 +18,22 @@ export function Hero() {
           <h2 className="lg:text-8xl text-6xl font-bold text-primary-foreground">
             AZIAS FC
           </h2>
-          <p className="lg:text-2xl text-xl text-primary-foreground/80 mt-6">
+          <p className="lg:text-2xl text-xl text-primary-foreground/80 mt-6 italic">
             Um clube. Uma família. Uma paixão.
           </p>
 
           <div className="flex items-center gap-6 mt-6">
-            <Button asChild variant="secondary">
+            <Button asChild variant="secondary" className="lg:w-1/6">
               <Link to="/calendario">
                 <CalendarIcon /> Ver calendário
               </Link>
             </Button>
 
-            <Button asChild variant="outline" className="hover:bg-white/80">
+            <Button
+              asChild
+              variant="outline"
+              className="hover:bg-white/80 lg:w-1/6"
+            >
               <Link to="/contacto">
                 <Phone /> Entrar em contato
               </Link>
