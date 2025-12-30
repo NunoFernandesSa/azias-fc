@@ -15,7 +15,7 @@ export function HomePageAboutSection() {
           <CardTitle className="text-3xl font-bold">A nossa história</CardTitle>
         </CardHeader>
 
-        <CardContent className="text-primary text-lg font-semibold py-6 px-0 md:px-6 grid grid-cols-1 lg:grid-cols-2 items-center">
+        <CardContent className="text-primary text-lg font-semibold grid grid-cols-1 lg:grid-cols-2 items-center gap-6">
           <div>
             <p>
               Fundado em AZIAS, Ponte da Barca, o Azias FC é um clube empenhado
