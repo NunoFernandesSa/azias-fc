@@ -19,7 +19,7 @@ export function Navbar() {
 
       {/* ---------- Desktop Nav ---------- */}
 
-      <div className="flex flex-col items-center justify-center gap-6">
+      <div className="flex flex-col items-center justify-center gap-6 mt-6">
         {navLinks.map(({ href, label, id }) => (
           <NavLink
             key={id}
