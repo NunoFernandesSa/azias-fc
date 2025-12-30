@@ -14,18 +14,18 @@ export function Home() {
   return (
     <>
       <Hero />
-
       <Container className="mx-3 lg:mx-16 my-16 lg:my-16 grid grid-cols-1 xl:grid-cols-2 gap-6">
         <NextMatchCard
           title="Próximo Jogo"
           cardContent={<NextMatchCardContent {...match} />}
           className="bg-primary text-primary-foreground "
         />
-
         <HomePageTeamSection />
       </Container>
 
-      <HomePageAboutSection />
+      <Container className="mx-3 lg:mx-16 my-16 lg:my-16">
+        <HomePageAboutSection />
+      </Container>
 
       <div className="grid grid-cols-1 lg:grid-cols-2 gap-6">
         <HomePageSponsorsSection />
