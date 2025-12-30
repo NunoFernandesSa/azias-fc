@@ -11,6 +11,7 @@ export * from "./ui/aspect-ratio";
 // ---------- Layout ----------
 export * from "@/components/layout/Hero";
 export * from "@/components/layout/NavBar";
+export * from "@/components/layout/Footer";
 
 // ---------- Features Matches ----------
 export * from "@/components/features/matches/NextMatchCard";

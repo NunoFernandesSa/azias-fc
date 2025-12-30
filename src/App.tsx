@@ -1,10 +1,10 @@
-import { Navbar } from "@/components/index.ts";
+import { Footer, Navbar } from "@/components/index.ts";
 import { Outlet } from "react-router-dom";
 
 function App() {
   return (
-    <>
-      <div className="flex">
+    <div className="min-h-screen flex flex-col">
+      <div className="flex flex-1">
         <header className="h-screen hidden lg:flex lg:w-48 bg-primary fixed top-0 left-0">
           <Navbar />
         </header>
@@ -13,7 +13,9 @@ function App() {
           <Outlet />
         </main>
       </div>
-    </>
+
+      <Footer />
+    </div>
   );
 }
 
