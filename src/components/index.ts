@@ -14,7 +14,6 @@ export * from "@/components/layout/NavBar";
 // ---------- Features Matches ----------
 export * from "@/components/features/matches/NextMatchCard";
 export * from "@/components/features/matches/NextMatchCardContent";
-export * from "@/components/features/matches/NextMatchCardFooter";
 export * from "@/components/features/matches/TeamLogoAndName";
 
 // ---------- Features About ----------
