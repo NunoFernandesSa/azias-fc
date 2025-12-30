@@ -5,7 +5,7 @@ import { Link } from "react-router-dom";
 export function Hero() {
   return (
     <Container>
-      <div className="relative flex items-end border overflow-hidden min-h-screen">
+      <div className="relative flex items-end overflow-hidden min-h-screen">
         {/* Background Image */}
         <img
           src="/bg-hero.jpg"
@@ -14,8 +14,8 @@ export function Hero() {
         />
 
         {/* Content */}
-        <div className="w-full h-screen flex flex-col justify-center items-center bg-linear-to-t from-primary via-primary/70 to-background/20 gap-6">
-          <h2 className="lg:text-8xl text-6xl font-bold text-primary-foreground">
+        <div className="w-full h-screen flex flex-col justify-end items-center bg-linear-to-t from-primary via-primary/70 to-background/20 gap-6 pb-20">
+          <h2 className="text-6xl md:text-8xl lg:text-10xl xl:text-[12rem] font-bold text-primary-foreground">
             AZIAS FC
           </h2>
           <p className="lg:text-2xl text-xl text-primary-foreground/80 mt-6 italic">

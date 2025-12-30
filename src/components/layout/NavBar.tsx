@@ -7,18 +7,16 @@ import { navLinks } from "@/config/constants/constants";
 export function Navbar() {
   return (
     <nav className="h-full w-full flex flex-col items-center">
-      {/* ----- Logo ----- */}
+      {/* ---------- Logo ---------- */}
       <Link to="/">
         <img
           src="/azias-fc-logo.png"
           alt="Logo da equipa FC Azias"
           className="w-48 h-48 rounded-full"
         />
-        {/* <span className="font-bold text-xl text-gray-900">Azias FC</span> */}
       </Link>
 
       {/* ---------- Desktop Nav ---------- */}
-
       <div className="flex flex-col items-center justify-center gap-6 mt-6">
         {navLinks.map(({ href, label, id }) => (
           <NavLink
