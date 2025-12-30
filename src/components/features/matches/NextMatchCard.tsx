@@ -18,7 +18,17 @@ export function NextMatchCard({
   className,
 }: NextMatchCardProps) {
   return (
-    <Card className={className}>
+    <Card
+      className={
+        className +
+        " relative bg-gradient-to-r from-primary to-primary/75 rounded-lg"
+      }
+    >
+      <img
+        src="/bg-match-card.jpg"
+        alt=""
+        className="absolute w-full h-full object-cover bottom-0 -z-10 rounded-lg"
+      />
       <CardHeader>
         <CardTitle className="text-3xl font-bold">{title}</CardTitle>
       </CardHeader>
