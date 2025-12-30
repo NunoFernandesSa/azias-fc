@@ -5,8 +5,10 @@ import {
   CardHeader,
   CardTitle,
   AspectRatio,
+  Button,
 } from "@/components/index.ts";
 import { sponsors } from "@/config/constants/constants";
+import { Link } from "react-router-dom";
 
 export function HomePageSponsorsSection() {
   return (
@@ -24,6 +26,10 @@ export function HomePageSponsorsSection() {
           respeito e união.
         </p>
         <p>Juntos, estamos a construir o futuro do Azias FC.</p>
+
+        <Button asChild variant={"secondary"} size={"lg"} className="my-6">
+          <Link to="/patrocinadores">Torne-se patrocinador</Link>
+        </Button>
       </CardContent>
       <CardFooter className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 xl:grid-cols-6 gap-4">
         {sponsors.map((sponsor) => (
