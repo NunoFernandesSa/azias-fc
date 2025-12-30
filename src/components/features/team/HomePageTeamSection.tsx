@@ -24,17 +24,17 @@ export function HomePageTeamSection() {
       </CardHeader>
 
       <CardFooter className=" flex-1 flex-col items-start justify-end gap-6 mt-12">
-        <div className="text-2xl md:text-4xl font-bold flex items-center gap-2">
-          <User className="mr-2 rounded-full bg-secondary p-3" size={60} />
+        <div className="text-xl md:text-2xl font-bold flex items-center gap-2">
+          <User className="mr-2 rounded-full bg-secondary p-2" size={40} />
           27 Jogadores
         </div>
-        <div className="text-2xl md:text-4xl font-bold flex items-center gap-2">
-          <Trophy className="mr-2 rounded-full bg-secondary p-3" size={60} />
+        <div className="text-xl md:text-2xl font-bold flex items-center gap-2">
+          <Trophy className="mr-2 rounded-full bg-secondary p-2" size={40} />
           Campeonato INATEL
         </div>
         <Button asChild variant={"secondary"} className="w-full sm:w-1/2">
           <Link to="/equipa" className="text-start">
-            Conhecer os nossos jogadores
+            Veja a nossa equipa
           </Link>
         </Button>
       </CardFooter>
