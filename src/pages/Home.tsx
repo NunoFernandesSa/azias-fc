@@ -2,6 +2,8 @@ import {
   Container,
   Hero,
   HomePageAboutSection,
+  HomePageSponsorsSection,
+  HomePageTeamSection,
   NextMatchCard,
   NextMatchCardContent,
 } from "@/components/index";
@@ -21,6 +23,11 @@ export function Home() {
         />
 
         <HomePageAboutSection />
+
+        <div className="grid grid-cols-1 lg:grid-cols-2 gap-6">
+          <HomePageTeamSection />
+          <HomePageSponsorsSection />
+        </div>
       </Container>
     </>
   );
