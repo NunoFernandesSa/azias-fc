@@ -43,7 +43,7 @@ export function HomePageAboutSection() {
             </div>
             <div className="text-primary text-lg font-semibold">
               <span className="text-primary bg-secondary p-3 rounded">
-                2025
+                2026
               </span>
               <span className="text-primary bg-white p-3 rounded">
                 🚀 Crescimento e novos objetivos

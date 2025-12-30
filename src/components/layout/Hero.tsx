@@ -23,13 +23,18 @@ export function Hero() {
           </p>
 
           <div className="flex flex-col md:flex-row gap-6">
-            <Button asChild variant="secondary" className="">
+            <Button asChild variant="secondary" size="lg" className="">
               <Link to="/calendario">
                 <CalendarIcon /> Ver calendário
               </Link>
             </Button>
 
-            <Button asChild variant="outline" className="hover:bg-white/80">
+            <Button
+              asChild
+              variant="outline"
+              size="lg"
+              className="hover:bg-white/80"
+            >
               <Link to="/contacto">
                 <Phone /> Entrar em contato
               </Link>
