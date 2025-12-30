@@ -26,7 +26,7 @@ export function Navbar() {
               to={href}
               className={({ isActive }) =>
                 `font-semibold text-md hover:text-primary hover:bg-white px-3 py-3 w-full ease-in-out duration-500 ${
-                  isActive ? "bg-white text-primary" : "text-white"
+                  isActive ? "bg-background text-primary" : "text-white"
                 }`
               }
             >

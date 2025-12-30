@@ -5,7 +5,7 @@ function App() {
   return (
     <>
       <div className="flex">
-        <header className="h-screen w-32 bg-primary">
+        <header className="h-screen w-32 bg-primary fixed top-0 left-0">
           <Navbar />
         </header>
 
