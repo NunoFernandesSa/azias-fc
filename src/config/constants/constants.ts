@@ -41,10 +41,10 @@ export const match = {
   date: "Domingo, 14 Dezembro 2025",
   time: "12:00",
   teamPlayingAtHome: "Azias FC",
-  teamPlayingAway: "ADPB",
+  teamPlayingAway: "FC Azias",
   address: "Campo da Manguela, AZIAS Ponte da Barca",
   teamPlayingAtHomeLogo: "/azias-fc-logo.png",
-  teamPlayingAwayLogo: "/adpb-logo.jpg",
+  teamPlayingAwayLogo: "/azias-fc-logo.png",
   playAtHome: true,
 };
 

@@ -1,4 +1,5 @@
 import {
+  Button,
   Container,
   Hero,
   HomePageAboutSection,
@@ -9,6 +10,7 @@ import {
 } from "@/components/index";
 
 import { match } from "@/config/constants/constants";
+import { Link } from "react-router-dom";
 
 export function Home() {
   return (
@@ -18,6 +20,11 @@ export function Home() {
         <NextMatchCard
           title="Próximo Jogo"
           cardContent={<NextMatchCardContent {...match} />}
+          cardFooter={
+            <Button asChild variant={"secondary"} className="w-full">
+              <Link to="/calendario">Consultar calendário</Link>
+            </Button>
+          }
           className="bg-primary text-primary-foreground "
         />
         <HomePageTeamSection />
