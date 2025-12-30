@@ -1,3 +1,7 @@
+// ---------- react-router-dom ----------
+import { Link } from "react-router-dom";
+
+// ---------- components ----------
 import {
   Button,
   Container,
@@ -10,8 +14,8 @@ import {
   NextMatchCardContent,
 } from "@/components/index";
 
+// ---------- constants ----------
 import { match } from "@/config/constants/constants";
-import { Link } from "react-router-dom";
 
 export function Home() {
   return (
