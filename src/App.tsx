@@ -9,7 +9,7 @@ function App() {
           <Navbar />
         </header>
 
-        <main className="flex-1">
+        <main className="ml-32 flex-1">
           <Outlet />
         </main>
       </div>

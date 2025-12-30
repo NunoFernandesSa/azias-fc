@@ -30,7 +30,7 @@ export function Navbar() {
                 }`
               }
             >
-              {label}
+              {label.toUpperCase()}
             </NavLink>
           ))}
         </div>

@@ -15,7 +15,7 @@ export function Home() {
     <>
       <Hero />
 
-      <Container className="container mx-auto grid grid-cols-1 gap-6 md:px-16">
+      <Container className="">
         <NextMatchCard
           title="Próximo Jogo"
           cardContent={<NextMatchCardContent {...match} />}
