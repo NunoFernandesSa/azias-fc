@@ -30,9 +30,7 @@ export function NextMatchCard({
         className="absolute w-full h-full object-cover bottom-0 -z-10 rounded-lg"
       />
       <CardHeader>
-        <CardTitle className="text-3xl font-bold">
-          <span className="bg-green-300/50 px-3 py-1 rounded-lg">{title}</span>
-        </CardTitle>
+        <CardTitle className="text-3xl font-bold">{title}</CardTitle>
       </CardHeader>
       <CardContent>{cardContent}</CardContent>
       <CardFooter className={cardFooterClassName}>{cardFooter}</CardFooter>

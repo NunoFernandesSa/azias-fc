@@ -18,7 +18,7 @@ export function NextMatchCardContent({
           teamLogo={teamPlayingAtHomeLogo}
           teamName={teamPlayingAtHome}
         />
-        <p className="text-xl lg:text-4xl font-semibold text-secondary">VS</p>
+        <p className="text-xl lg:text-4xl font-bold text-secondary">X</p>
         <TeamLogoAndName
           teamLogo={teamPlayingAwayLogo}
           teamName={teamPlayingAway}
