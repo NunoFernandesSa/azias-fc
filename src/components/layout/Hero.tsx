@@ -5,7 +5,7 @@ import { Link } from "react-router-dom";
 export function Hero() {
   return (
     <Container>
-      <div className="relative flex items-end border overflow-hidden h-[calc(100vh-100px)]">
+      <div className="relative flex items-end border overflow-hidden min-h-screen">
         {/* Background Image */}
         <img
           src="/bg-hero.jpg"
@@ -14,7 +14,7 @@ export function Hero() {
         />
 
         {/* Content */}
-        <div className="w-full bg-linear-to-r from-primary via-primary/70 to-background/20 px-12 py-12 flex flex-col justify-center">
+        <div className="w-full h-screen flex flex-col justify-center items-center bg-linear-to-t from-primary via-primary/70 to-background/20 gap-6">
           <h2 className="lg:text-8xl text-6xl font-bold text-primary-foreground">
             AZIAS FC
           </h2>
@@ -22,18 +22,14 @@ export function Hero() {
             Um clube. Uma família. Uma paixão.
           </p>
 
-          <div className="flex items-center gap-6 mt-6">
-            <Button asChild variant="secondary" className="lg:w-1/6">
+          <div className="flex flex-col md:flex-row gap-6">
+            <Button asChild variant="secondary" className="">
               <Link to="/calendario">
                 <CalendarIcon /> Ver calendário
               </Link>
             </Button>
 
-            <Button
-              asChild
-              variant="outline"
-              className="hover:bg-white/80 lg:w-1/6"
-            >
+            <Button asChild variant="outline" className="hover:bg-white/80">
               <Link to="/contacto">
                 <Phone /> Entrar em contato
               </Link>
