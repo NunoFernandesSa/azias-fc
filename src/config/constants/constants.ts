@@ -50,28 +50,40 @@ export const match = {
 
 export const sponsors = [
   {
+    id: 0,
+    name: "JF Azias",
+    logo: "./src/assets/images/sponsors/azias.png",
+    website: "https://www.jf-azias.pt",
+  },
+  {
     id: 1,
     name: "Restaurante Pizzaria São Sebastião",
-    logo: "/cafe-logo.png",
+    logo: "./src/assets/images/sponsors/cafe-s-sebastiao.jpg",
+    website:
+      "https://www.facebook.com/p/Restaurante-Pizzaria-S%C3%A3o-Sebasti%C3%A3o-61561312854116/",
   },
   {
     id: 2,
     name: "2",
     logo: "",
+    website: "",
   },
   {
     id: 3,
     name: "3",
     logo: "",
+    website: "",
   },
   {
     id: 4,
     name: "4",
     logo: "",
+    website: "",
   },
   {
     id: 5,
     name: "5",
     logo: "",
+    website: "",
   },
 ];

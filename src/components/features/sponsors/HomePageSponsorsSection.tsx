@@ -37,6 +37,10 @@ export function HomePageSponsorsSection() {
           Juntos, estamos a construir o futuro do Azias FC.
         </p>
 
+        <p className="font-semibold mt-6">
+          Quer dar visibilidade à sua empresa e apoiar o futebol local?
+        </p>
+
         <Button
           asChild
           variant={"secondary"}
@@ -48,13 +52,22 @@ export function HomePageSponsorsSection() {
       </CardContent>
       <CardFooter className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 xl:grid-cols-6 gap-4">
         {sponsors.map((sponsor) => (
-          <AspectRatio
-            key={sponsor.id}
-            ratio={16 / 9}
-            className="bg-muted rounded-lg border max-w-[160px] md:max-w-[180px] lg:max-w-[200px] max-h-[160px] md:max-h-[180px] lg:max-h-[200px]"
-          >
-            <img src={sponsor.logo} alt={sponsor.name} />
-          </AspectRatio>
+          <div className="hover:scale-102 transition-all duration-300">
+            <Link to={sponsor.website} target="_blank" title="Consultar">
+              <AspectRatio
+                key={sponsor.id}
+                ratio={16 / 9}
+                className="bg-muted rounded-lg border max-w-[160px] md:max-w-[180px] lg:max-w-[200px] max-h-[160px] md:max-h-[180px] lg:max-h-[200px]"
+              >
+                <img
+                  src={sponsor.logo}
+                  alt={sponsor.name}
+                  className="object-cover rounded-lg w-full h-full"
+                />
+              </AspectRatio>
+            </Link>
+            <span className="text-sm">{sponsor.name}</span>
+          </div>
         ))}
       </CardFooter>
     </Card>
