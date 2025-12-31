@@ -30,7 +30,10 @@ export function NextMatchCard({
         className="absolute w-full h-full object-cover bottom-0 -z-10 rounded-lg"
       />
       <CardHeader>
-        <CardTitle className="text-3xl font-bold">{title}</CardTitle>
+        <CardTitle className="flex flex-col gap-2">
+          <p className="text-3xl font-bold">{title}</p>
+          <p className="text-secondary text-md">🕒 Faltam 5 dias</p>
+        </CardTitle>
       </CardHeader>
       <CardContent>{cardContent}</CardContent>
       <CardFooter className={cardFooterClassName}>{cardFooter}</CardFooter>
