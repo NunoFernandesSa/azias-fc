@@ -24,22 +24,29 @@ export function Navbar() {
             to={href}
             className={({ isActive }) =>
               `
+    relative overflow-hidden
     font-semibold text-md
     px-6 py-3 w-full
-    rounded
-    transition-all duration-300 ease-out
+    rounded-lg
+
+    transition-colors duration-300 ease-out
+
+    ${isActive ? "text-primary bg-white/90" : "text-white"}
+
+    before:absolute before:inset-0
+    before:bg-gradient-to-r before:from-white before:to-white/60
+    before:transition-transform before:duration-300 before:ease-out
+    before:-z-10
+    before:translate-x-[-100%]
+
+    hover:before:translate-x-0
     hover:text-primary
-    hover:bg-gradient-to-r hover:from-white hover:to-white/60
-    hover:translate-x-1
-    ${
-      isActive
-        ? "bg-gradient-to-r from-white to-white/60 text-primary translate-x-1"
-        : "text-white"
-    }
+
+    ${isActive ? "before:translate-x-0" : ""}
     `
             }
           >
-            {label.toUpperCase()}
+            <span className="relative z-10">{label.toUpperCase()}</span>
           </NavLink>
         ))}
       </div>
