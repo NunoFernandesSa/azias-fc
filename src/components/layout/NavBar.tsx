@@ -12,7 +12,7 @@ export function Navbar() {
         <img
           src="/azias-fc-logo.png"
           alt="Logo da equipa FC Azias"
-          className="w-48 h-48 rounded-full"
+          className="w-40 h-40 rounded-full"
         />
       </Link>
 
