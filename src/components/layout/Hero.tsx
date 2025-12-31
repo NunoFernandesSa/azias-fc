@@ -15,7 +15,7 @@ export function Hero() {
 
         {/* Content */}
         <div className="w-full h-screen flex flex-col justify-end items-center bg-linear-to-t from-primary via-primary/70 to-background/20 gap-6 pb-20">
-          <h2 className="text-6xl md:text-8xl lg:text-10xl xl:text-[12rem] font-bold text-primary-foreground">
+          <h2 className="text-6xl md:text-8xl lg:text-10xl xl:text-[12rem] font-bold text-primary-foreground/70">
             AZIAS FC
           </h2>
           <p className="lg:text-2xl text-xl text-primary-foreground/80 mt-6 italic">
