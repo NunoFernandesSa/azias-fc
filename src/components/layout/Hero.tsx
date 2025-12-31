@@ -33,7 +33,7 @@ export function Hero() {
               asChild
               variant="outline"
               size="lg"
-              className="hover:bg-white/80"
+              className="bg-transparent hover:bg-white/80 text-primary-foreground"
             >
               <Link to="/contacto">
                 <Phone /> Entrar em contato
