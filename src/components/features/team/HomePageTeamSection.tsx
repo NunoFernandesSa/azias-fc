@@ -35,7 +35,7 @@ export function HomePageTeamSection() {
         <div className="text-xl md:text-2xl font-bold flex items-center gap-2">
           🏆 Campeonato INATEL
         </div>
-        <Button asChild variant={"secondary"} className="w-full sm:w-1/2">
+        <Button asChild variant={"secondary"} className="w-full">
           <Link to="/equipa" className="text-start">
             Veja a nossa equipa
           </Link>
