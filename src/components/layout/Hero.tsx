@@ -22,8 +22,13 @@ export function Hero() {
             Um clube. Uma família. Uma paixão.
           </p>
 
-          <div className="flex flex-col md:flex-row gap-6">
-            <Button asChild variant="secondary" size="lg" className="">
+          <div className="flex flex-col sm:flex-row items-center justify-center gap-6 w-full px-6">
+            <Button
+              asChild
+              variant="secondary"
+              size="lg"
+              className="w-full sm:w-auto"
+            >
               <Link to="/calendario">
                 <CalendarIcon /> Ver calendário
               </Link>
@@ -33,7 +38,7 @@ export function Hero() {
               asChild
               variant="outline"
               size="lg"
-              className="bg-transparent hover:bg-white/80 text-primary-foreground"
+              className="w-full sm:w-auto bg-transparent hover:bg-white/80 text-primary-foreground"
             >
               <Link to="/contacto">
                 <Phone /> Entrar em contato
