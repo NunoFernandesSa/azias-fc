@@ -4,8 +4,13 @@ import { Link, NavLink } from "react-router-dom";
 // Constants
 import { navLinks } from "@/config/constants/constants";
 
+// Hooks
+import { useIsMobile } from "@/hooks/useIsMobile";
+
 export function Navbar() {
-  return (
+  const isMobile = useIsMobile();
+
+  const desktopNavbar = (
     <nav className="h-full w-full flex flex-col items-center">
       {/* ---------- Logo ---------- */}
       <Link to="/">
@@ -52,4 +57,42 @@ export function Navbar() {
       </div>
     </nav>
   );
+
+  const mobileNavbar = (
+    <nav className="h-full w-full flex items-center justify-between px-4">
+      {/* ---------- Logo ---------- */}
+      <Link to="/">
+        <img
+          src="/azias-fc-logo.png"
+          alt="Logo da equipa FC Azias"
+          className="w-16 h-16 rounded-full"
+        />
+      </Link>
+
+      {/* ---------- Menu Hamburger ---------- */}
+      <button
+        className="text-white p-2"
+        onClick={() => {
+          // Ici tu peux gérer l'ouverture d'un menu latéral
+          console.log("Ouvrir menu mobile");
+        }}
+      >
+        <svg
+          className="w-8 h-8"
+          fill="none"
+          stroke="currentColor"
+          viewBox="0 0 24 24"
+        >
+          <path
+            strokeLinecap="round"
+            strokeLinejoin="round"
+            strokeWidth={2}
+            d="M4 6h16M4 12h16M4 18h16"
+          />
+        </svg>
+      </button>
+    </nav>
+  );
+
+  return isMobile ? mobileNavbar : desktopNavbar;
 }
