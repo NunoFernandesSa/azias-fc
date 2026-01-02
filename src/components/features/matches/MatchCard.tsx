@@ -1,5 +1,5 @@
 import { Card, CardContent, LogoAndNameTeam } from "@/components/index.ts";
-import { ArrowRight, Calendar, Timer } from "lucide-react";
+import { Calendar, Timer } from "lucide-react";
 
 type MatchCardProps = {
   match: {
@@ -26,14 +26,12 @@ export function MatchCard({ match, team, results }: MatchCardProps) {
   return (
     <Card className="bg-primary text-primary-foreground relative pt-1">
       <CardContent className="flex flex-col items-center gap-6">
-        {/* Date */}
+        {/* Date and hour */}
         <div className="w-full flex flex-col sm:flex-row items-center justify-center text-secondary gap-3">
-          <span>{match.jornada}° Jornada</span>
-          <ArrowRight className="w-4 h-4 sm:flex hidden" />
+          <span className="text-sm italic">{match.jornada}° Jornada</span>
           <span className="flex items-center gap-2">
             <Calendar className="w-4 h-4" /> {match.date}
           </span>
-          <ArrowRight className="w-4 h-4 sm:flex hidden" />
           <span className="flex items-center gap-2">
             <Timer className="w-4 h-4" />
             {match.hour}H
