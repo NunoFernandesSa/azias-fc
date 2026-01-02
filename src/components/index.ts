@@ -9,6 +9,7 @@ export * from "./ui/badge";
 export * from "./ui/aspect-ratio";
 export * from "./ui/table";
 export * from "./ui/spinner";
+export * from "./ui/background-optimized";
 
 // ---------- Layout ----------
 export * from "@/components/layout/Hero";
