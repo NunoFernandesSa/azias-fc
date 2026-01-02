@@ -15,7 +15,7 @@ import {
 } from "@/components/index";
 
 // ---------- constants ----------
-import { match } from "@/config/constants/constants";
+import { calendar } from "@/config/constants/constants";
 
 export function Home() {
   return (
@@ -24,7 +24,7 @@ export function Home() {
       <Container className="mx-3 lg:mx-16 my-16 lg:my-16 grid grid-cols-1 xl:grid-cols-2 gap-6">
         <NextMatchCard
           title="Próximo Jogo"
-          cardContent={<NextMatchCardContent {...match} />}
+          cardContent={<NextMatchCardContent {...calendar[0]} />}
           cardFooter={
             <Button asChild variant={"secondary"} className="w-full">
               <Link to="/calendario">Consultar calendário</Link>

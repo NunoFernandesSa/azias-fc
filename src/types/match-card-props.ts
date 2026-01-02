@@ -7,7 +7,7 @@ export type MatchCardProps = {
     address: string;
     playAtHome: boolean;
   };
-  team?: {
+  team: {
     teamPlayingAtHome: string;
     teamPlayingAtHomeLogo: string;
     teamPlayingAway: string;
