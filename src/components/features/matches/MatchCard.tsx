@@ -1,28 +1,24 @@
+// ---------- components ----------
 import { Card, CardContent, LogoAndNameTeam } from "@/components/index.ts";
+// ---------- icons ----------
 import { Calendar, Timer } from "lucide-react";
+// ---------- types ----------
+import type { MatchCardProps } from "@/types/index.ts";
+import type { JSX } from "react";
 
-type MatchCardProps = {
-  match: {
-    championship: string;
-    jornada: number;
-    date: string;
-    hour: string;
-    address: string;
-    playAtHome: boolean;
-  };
-  team?: {
-    teamPlayingAtHome: string;
-    teamPlayingAtHomeLogo: string;
-    teamPlayingAway: string;
-    teamPlayingAwayLogo: string;
-  };
-  results?: {
-    teamPlayingAtHomeScore: number | null | "";
-    teamPlayingAwayScore: number | null | "";
-  };
-};
-
-export function MatchCard({ match, team, results }: MatchCardProps) {
+/**
+ * MatchCard component
+ * Displays a summary card for a single match, including date/time, participating teams, and optional results.
+ * @param match - Contains the match's date, hour, and jornada (matchday) information.
+ * @param team - Holds the names and logos of the home and away teams.
+ * @param results - Optional; if provided, shows the final score of the match.
+ * @returns JSX element representing the match card.
+ */
+export function MatchCard({
+  match,
+  team,
+  results,
+}: MatchCardProps): JSX.Element {
   return (
     <Card className="bg-primary text-primary-foreground relative pt-1">
       <CardContent className="flex flex-col items-center gap-6">
