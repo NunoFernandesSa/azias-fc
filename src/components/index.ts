@@ -7,16 +7,19 @@ export * from "./ui/card";
 export * from "./ui/select";
 export * from "./ui/badge";
 export * from "./ui/aspect-ratio";
+export * from "./ui/table";
 
 // ---------- Layout ----------
 export * from "@/components/layout/Hero";
 export * from "@/components/layout/NavBar";
 export * from "@/components/layout/Footer";
+export * from "@/components/layout/CalendarFilterComponent";
 
 // ---------- Features Matches ----------
 export * from "@/components/features/matches/NextMatchCard";
 export * from "@/components/features/matches/NextMatchCardContent";
 export * from "@/components/features/matches/TeamLogoAndName";
+export * from "@/components/features/matches/MatchCard";
 
 // ---------- Features About ----------
 export * from "@/components/features/about/HomePageAboutSection";

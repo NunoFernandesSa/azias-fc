@@ -87,3 +87,40 @@ export const sponsors = [
     website: "",
   },
 ];
+
+export const calendar = [
+  {
+    match: {
+      championship: "Campeonato INATEL",
+      date: "Domingo, 14 Dezembro 2025",
+      time: "12:00",
+      teamPlayingAtHome: "Azias FC",
+      teamPlayingAway: "FC Azias",
+      address: "Campo da Manguela, AZIAS Ponte da Barca",
+      teamPlayingAtHomeLogo: "/azias-fc-logo.png",
+      teamPlayingAwayLogo: "/azias-fc-logo.png",
+      playAtHome: true,
+    },
+    results: {
+      teamPlayingAtHomeScore: 2,
+      teamPlayingAwayScore: 1,
+    },
+  },
+  {
+    match: {
+      championship: "Campeonato INATEL",
+      date: "Domingo, 14 Dezembro 2025",
+      time: "12:00",
+      teamPlayingAtHome: "Azias FC",
+      teamPlayingAway: "FC Azias",
+      address: "Campo da Manguela, AZIAS Ponte da Barca",
+      teamPlayingAtHomeLogo: "/azias-fc-logo.png",
+      teamPlayingAwayLogo: "/azias-fc-logo.png",
+      playAtHome: true,
+    },
+    results: {
+      teamPlayingAtHomeScore: 2,
+      teamPlayingAwayScore: 1,
+    },
+  },
+];
