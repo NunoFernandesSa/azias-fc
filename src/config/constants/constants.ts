@@ -92,14 +92,17 @@ export const calendar = [
   {
     match: {
       championship: "Campeonato INATEL",
+      jornada: 1,
       date: "Domingo, 14 Dezembro 2025",
-      time: "12:00",
-      teamPlayingAtHome: "Azias FC",
-      teamPlayingAway: "FC Azias",
+      hour: "12:00",
       address: "Campo da Manguela, AZIAS Ponte da Barca",
-      teamPlayingAtHomeLogo: "/azias-fc-logo.png",
-      teamPlayingAwayLogo: "/azias-fc-logo.png",
       playAtHome: true,
+    },
+    team: {
+      teamPlayingAtHome: "Azias FC",
+      teamPlayingAtHomeLogo: "/azias-fc-logo.png",
+      teamPlayingAway: "FC Azias",
+      teamPlayingAwayLogo: "/azias-fc-logo.png",
     },
     results: {
       teamPlayingAtHomeScore: 2,
@@ -109,14 +112,237 @@ export const calendar = [
   {
     match: {
       championship: "Campeonato INATEL",
+      jornada: 2,
       date: "Domingo, 14 Dezembro 2025",
-      time: "12:00",
-      teamPlayingAtHome: "Azias FC",
-      teamPlayingAway: "FC Azias",
+      hour: "12:00",
       address: "Campo da Manguela, AZIAS Ponte da Barca",
-      teamPlayingAtHomeLogo: "/azias-fc-logo.png",
-      teamPlayingAwayLogo: "/azias-fc-logo.png",
       playAtHome: true,
+    },
+    team: {
+      teamPlayingAtHome: "Azias FC",
+      teamPlayingAtHomeLogo: "/azias-fc-logo.png",
+      teamPlayingAway: "FC Azias",
+      teamPlayingAwayLogo: "/azias-fc-logo.png",
+    },
+    results: {
+      teamPlayingAtHomeScore: 2,
+      teamPlayingAwayScore: 1,
+    },
+  },
+  {
+    match: {
+      championship: "Campeonato INATEL",
+      jornada: 3,
+      date: "Domingo, 14 Dezembro 2025",
+      hour: "12:00",
+      address: "Campo da Manguela, AZIAS Ponte da Barca",
+      playAtHome: true,
+    },
+    team: {
+      teamPlayingAtHome: "Azias FC",
+      teamPlayingAtHomeLogo: "/azias-fc-logo.png",
+      teamPlayingAway: "FC Azias",
+      teamPlayingAwayLogo: "/azias-fc-logo.png",
+    },
+    results: {
+      teamPlayingAtHomeScore: 2,
+      teamPlayingAwayScore: 1,
+    },
+  },
+  {
+    match: {
+      championship: "Campeonato INATEL",
+      jornada: 4,
+      date: "Domingo, 14 Dezembro 2025",
+      hour: "12:00",
+      address: "Campo da Manguela, AZIAS Ponte da Barca",
+      playAtHome: true,
+    },
+    team: {
+      teamPlayingAtHome: "Azias FC",
+      teamPlayingAtHomeLogo: "/azias-fc-logo.png",
+      teamPlayingAway: "FC Azias",
+      teamPlayingAwayLogo: "/azias-fc-logo.png",
+    },
+    results: {
+      teamPlayingAtHomeScore: 2,
+      teamPlayingAwayScore: 1,
+    },
+  },
+  {
+    match: {
+      championship: "Campeonato INATEL",
+      jornada: 5,
+      date: "Domingo, 14 Dezembro 2025",
+      hour: "12:00",
+      address: "Campo da Manguela, AZIAS Ponte da Barca",
+      playAtHome: true,
+    },
+    team: {
+      teamPlayingAtHome: "Azias FC",
+      teamPlayingAtHomeLogo: "/azias-fc-logo.png",
+      teamPlayingAway: "FC Azias",
+      teamPlayingAwayLogo: "/azias-fc-logo.png",
+    },
+    results: {
+      teamPlayingAtHomeScore: 2,
+      teamPlayingAwayScore: 1,
+    },
+  },
+  {
+    match: {
+      championship: "Campeonato INATEL",
+      jornada: 6,
+      date: "Domingo, 14 Dezembro 2025",
+      hour: "12:00",
+      address: "Campo da Manguela, AZIAS Ponte da Barca",
+      playAtHome: true,
+    },
+    team: {
+      teamPlayingAtHome: "Azias FC",
+      teamPlayingAtHomeLogo: "/azias-fc-logo.png",
+      teamPlayingAway: "FC Azias",
+      teamPlayingAwayLogo: "/azias-fc-logo.png",
+    },
+    results: {
+      teamPlayingAtHomeScore: 2,
+      teamPlayingAwayScore: 1,
+    },
+  },
+  {
+    match: {
+      championship: "Campeonato INATEL",
+      jornada: 7,
+      date: "Domingo, 14 Dezembro 2025",
+      hour: "12:00",
+      address: "Campo da Manguela, AZIAS Ponte da Barca",
+      playAtHome: true,
+    },
+    team: {
+      teamPlayingAtHome: "Azias FC",
+      teamPlayingAtHomeLogo: "/azias-fc-logo.png",
+      teamPlayingAway: "FC Azias",
+      teamPlayingAwayLogo: "/azias-fc-logo.png",
+    },
+    results: {
+      teamPlayingAtHomeScore: 2,
+      teamPlayingAwayScore: 1,
+    },
+  },
+  {
+    match: {
+      championship: "Campeonato INATEL",
+      jornada: 8,
+      date: "Domingo, 14 Dezembro 2025",
+      hour: "12:00",
+      address: "Campo da Manguela, AZIAS Ponte da Barca",
+      playAtHome: true,
+    },
+    team: {
+      teamPlayingAtHome: "Azias FC",
+      teamPlayingAtHomeLogo: "/azias-fc-logo.png",
+      teamPlayingAway: "FC Azias",
+      teamPlayingAwayLogo: "/azias-fc-logo.png",
+    },
+    results: {
+      teamPlayingAtHomeScore: 2,
+      teamPlayingAwayScore: 1,
+    },
+  },
+  {
+    match: {
+      championship: "Campeonato INATEL",
+      jornada: 9,
+      date: "Domingo, 14 Dezembro 2025",
+      hour: "12:00",
+      address: "Campo da Manguela, AZIAS Ponte da Barca",
+      playAtHome: true,
+    },
+    team: {
+      teamPlayingAtHome: "Azias FC",
+      teamPlayingAtHomeLogo: "/azias-fc-logo.png",
+      teamPlayingAway: "FC Azias",
+      teamPlayingAwayLogo: "/azias-fc-logo.png",
+    },
+    results: {
+      teamPlayingAtHomeScore: 2,
+      teamPlayingAwayScore: 1,
+    },
+  },
+  {
+    match: {
+      championship: "Campeonato INATEL",
+      jornada: 10,
+      date: "Domingo, 14 Dezembro 2025",
+      hour: "12:00",
+      address: "Campo da Manguela, AZIAS Ponte da Barca",
+      playAtHome: true,
+    },
+    team: {
+      teamPlayingAtHome: "Azias FC",
+      teamPlayingAtHomeLogo: "/azias-fc-logo.png",
+      teamPlayingAway: "FC Azias",
+      teamPlayingAwayLogo: "/azias-fc-logo.png",
+    },
+    results: {
+      teamPlayingAtHomeScore: 2,
+      teamPlayingAwayScore: 1,
+    },
+  },
+  {
+    match: {
+      championship: "Campeonato INATEL",
+      jornada: 11,
+      date: "Domingo, 14 Dezembro 2025",
+      hour: "12:00",
+      address: "Campo da Manguela, AZIAS Ponte da Barca",
+      playAtHome: true,
+    },
+    team: {
+      teamPlayingAtHome: "Azias FC",
+      teamPlayingAtHomeLogo: "/azias-fc-logo.png",
+      teamPlayingAway: "FC Azias",
+      teamPlayingAwayLogo: "/azias-fc-logo.png",
+    },
+    results: {
+      teamPlayingAtHomeScore: 2,
+      teamPlayingAwayScore: 1,
+    },
+  },
+  {
+    match: {
+      championship: "Campeonato INATEL",
+      jornada: 12,
+      date: "Domingo, 14 Dezembro 2025",
+      hour: "12:00",
+      address: "Campo da Manguela, AZIAS Ponte da Barca",
+      playAtHome: true,
+    },
+    team: {
+      teamPlayingAtHome: "Azias FC",
+      teamPlayingAtHomeLogo: "/azias-fc-logo.png",
+      teamPlayingAway: "FC Azias",
+      teamPlayingAwayLogo: "/azias-fc-logo.png",
+    },
+    results: {
+      teamPlayingAtHomeScore: 2,
+      teamPlayingAwayScore: 1,
+    },
+  },
+  {
+    match: {
+      championship: "Campeonato INATEL",
+      jornada: 13,
+      date: "Domingo, 14 Dezembro 2025",
+      hour: "12:00",
+      address: "Campo da Manguela, AZIAS Ponte da Barca",
+      playAtHome: true,
+    },
+    team: {
+      teamPlayingAtHome: "Azias FC",
+      teamPlayingAtHomeLogo: "/azias-fc-logo.png",
+      teamPlayingAway: "FC Azias",
+      teamPlayingAwayLogo: "/azias-fc-logo.png",
     },
     results: {
       teamPlayingAtHomeScore: 2,

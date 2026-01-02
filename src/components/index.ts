@@ -20,6 +20,7 @@ export * from "@/components/features/matches/NextMatchCard";
 export * from "@/components/features/matches/NextMatchCardContent";
 export * from "@/components/features/matches/TeamLogoAndName";
 export * from "@/components/features/matches/MatchCard";
+export * from "@/components/features/matches/LogoAndNameTeam";
 
 // ---------- Features About ----------
 export * from "@/components/features/about/HomePageAboutSection";
