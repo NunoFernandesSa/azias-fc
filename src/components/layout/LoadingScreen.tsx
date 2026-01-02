@@ -18,6 +18,9 @@ export const LoadingScreen = () => {
       <h1 className="text-4xl md:text-6xl lg:text-9xl font-bold text-primary-foreground/80 text-center px-4">
         AZIAS FC
       </h1>
+      <h2 className="text-2xl md:text-4xl lg:text-7xl font-bold text-primary-foreground/80 text-center px-4">
+        Bem-vindo
+      </h2>
 
       <p className="text-secondary text-lg font-semibold mt-4 italic">
         Ligua Inatel Portugal
@@ -25,5 +28,3 @@ export const LoadingScreen = () => {
     </div>
   );
 };
-
-export default LoadingScreen;
