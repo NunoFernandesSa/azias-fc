@@ -5,10 +5,16 @@ import {
   CardFooter,
   CardHeader,
   CardTitle,
-} from "../../ui/card";
+  CardBackground,
+} from "@/components/index.ts";
 
 // ---------- types ----------
 import type { NextMatchCardProps } from "@/types/index.ts";
+
+// ---------- images ----------
+import BgWebp from "/images/optimized/bg-match-card.webp";
+import BgJpg from "/images/optimized/bg-match-card.jpg";
+import BgMobileWebp from "/images/optimized/bg-match-card-mobile.webp";
 
 export function NextMatchCard({
   title,
@@ -18,25 +24,27 @@ export function NextMatchCard({
   className,
 }: NextMatchCardProps) {
   return (
-    <Card
-      className={
-        className +
-        " relative bg-gradient-to-r from-primary to-primary/75 rounded-lg"
-      }
+    <CardBackground
+      src={BgJpg}
+      webpSrc={BgWebp}
+      mobileSrc={BgMobileWebp}
+      overlay={true}
+      overlayColor="bg-primary/40"
     >
-      <img
-        src="/bg-match-card.jpg"
-        alt=""
-        className="absolute w-full h-full object-cover bottom-0 -z-10 rounded-lg"
-      />
-      <CardHeader>
-        <CardTitle className="flex flex-col gap-2">
-          <p className="text-3xl font-bold">{title}</p>
-          <p className="text-secondary text-md">🕒 Faltam 5 dias</p>
-        </CardTitle>
-      </CardHeader>
-      <CardContent>{cardContent}</CardContent>
-      <CardFooter className={cardFooterClassName}>{cardFooter}</CardFooter>
-    </Card>
+      <Card
+        className={
+          className + " bg-gradient-to-r from-primary to-primary/40 rounded-lg"
+        }
+      >
+        <CardHeader>
+          <CardTitle className="flex flex-col gap-2">
+            <p className="text-3xl font-bold">{title}</p>
+            <p className="text-secondary text-md">🕒 Faltam 5 dias</p>
+          </CardTitle>
+        </CardHeader>
+        <CardContent>{cardContent}</CardContent>
+        <CardFooter className={cardFooterClassName}>{cardFooter}</CardFooter>
+      </Card>
+    </CardBackground>
   );
 }

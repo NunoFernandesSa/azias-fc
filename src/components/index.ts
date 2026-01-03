@@ -17,7 +17,6 @@ export * from "@/components/layout/NavBar";
 export * from "@/components/layout/Footer";
 export * from "@/components/layout/CalendarFilterComponent";
 export * from "@/components/layout/LoadingScreen";
-export * from "@/components/features/background/HeroBackground";
 
 // ---------- Features Matches ----------
 export * from "@/components/features/matches/NextMatchCard";
@@ -25,6 +24,8 @@ export * from "@/components/features/matches/NextMatchCardContent";
 export * from "@/components/features/matches/TeamLogoAndName";
 export * from "@/components/features/matches/MatchCard";
 export * from "@/components/features/matches/LogoAndNameTeam";
+export * from "@/components/features/background/CardBackground";
+export * from "@/components/features/background/HeroBackground";
 
 // ---------- Features About ----------
 export * from "@/components/features/about/HomePageAboutSection";
