@@ -1,17 +1,22 @@
-import { BackgroundOptimized, Button, Container } from "@/components/index.ts";
-import { CalendarIcon, Phone } from "lucide-react";
+// ---------- react router ----------
 import { Link } from "react-router-dom";
+// ---------- icons ----------
+import { CalendarIcon, Phone } from "lucide-react";
+// ---------- components ----------
+import { Button, Container, HeroBackground } from "@/components/index.ts";
+// ---------- images ----------
+import HeroWebp from "/public/images/optimized/bg-hero.webp";
+import HeroJpg from "/public/images/optimized/bg-hero.jpg";
+import HeroMobileWebp from "/public/images/optimized/bg-hero-mobile.webp";
 
 export function Hero() {
   return (
     <Container>
-      <BackgroundOptimized
-        src="/bg-hero.jpg"
-        // webpSrc="/images/background.webp" // Version WebP optimisée
+      <HeroBackground
+        src={HeroJpg}
+        webpSrc={HeroWebp}
+        mobileSrc={HeroMobileWebp}
         className="min-h-screen"
-        overlay={true}
-        overlayColor="bg-blue-900/30"
-        priority={true}
       >
         <div className="relative flex items-end overflow-hidden min-h-screen">
           {/* Content */}
@@ -48,7 +53,7 @@ export function Hero() {
             </div>
           </div>
         </div>
-      </BackgroundOptimized>
+      </HeroBackground>
     </Container>
   );
 }

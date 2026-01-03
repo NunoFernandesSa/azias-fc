@@ -17,6 +17,7 @@ export * from "@/components/layout/NavBar";
 export * from "@/components/layout/Footer";
 export * from "@/components/layout/CalendarFilterComponent";
 export * from "@/components/layout/LoadingScreen";
+export * from "@/components/layout/HeroBackground";
 
 // ---------- Features Matches ----------
 export * from "@/components/features/matches/NextMatchCard";

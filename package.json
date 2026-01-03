@@ -4,7 +4,7 @@
   "version": "0.0.0",
   "type": "module",
   "scripts": {
-    "optimize:images": "node scripts/convert-to-webp.js",
+    "optimize:images": "node src/scripts/optimize-images.js",
     "dev": "vite",
     "build": "tsc -b && vite build",
     "lint": "eslint .",
