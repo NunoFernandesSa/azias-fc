@@ -1,5 +1,5 @@
 import { PlayerCard } from "@/components/features/team/PlayerCard";
-import { Container, Title } from "@/components/index";
+import { Container, PlayersSection, Title } from "@/components/index";
 
 const PLAYERS_DATA = [
   {
@@ -7,7 +7,7 @@ const PLAYERS_DATA = [
     imageUrl: "/images/players/player-exemple.jpg",
     name: "Ricardo",
     number: 1,
-    position: "Avançado",
+    position: "",
     age: 35,
     isCaptain: true,
     stats: { matches: 28, goals: 0, assists: 0 },
@@ -37,13 +37,31 @@ const PLAYERS_DATA = [
 export function Team() {
   return (
     <Container className="mx-3 lg:mx-16 my-30 lg:my-16 pt-6 lg:pt-0">
-      <Title className="text-primary text-center">A Nossa Equipa</Title>
+      <Title className="text-primary text-center mb-12">A Nossa Equipa</Title>
 
-      <div className="px-2 xl:px-8 py-16 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 xl:grid-cols-4 2xl:grid-cols-6 gap-6">
+      <PlayersSection sectionName="Guarda-redes">
         {PLAYERS_DATA.map((player) => (
           <PlayerCard key={player.id} {...player} />
         ))}
-      </div>
+      </PlayersSection>
+
+      <PlayersSection sectionName="Defesas">
+        {PLAYERS_DATA.map((player) => (
+          <PlayerCard key={player.id} {...player} />
+        ))}
+      </PlayersSection>
+
+      <PlayersSection sectionName="Atacantes">
+        {PLAYERS_DATA.map((player) => (
+          <PlayerCard key={player.id} {...player} />
+        ))}
+      </PlayersSection>
+
+      <PlayersSection sectionName="Equipa técnica">
+        {PLAYERS_DATA.map((player) => (
+          <PlayerCard key={player.id} {...player} />
+        ))}
+      </PlayersSection>
     </Container>
   );
 }

@@ -33,6 +33,7 @@ export * from "@/components/features/about/HomePageContactInfos";
 
 // ---------- Features Team ----------
 export * from "@/components/features/team/HomePageTeamSection";
+export * from "@/components/features/team/PlayersSection";
 
 // ---------- Features Sponsors ----------
 export * from "@/components/features/sponsors/HomePageSponsorsSection";

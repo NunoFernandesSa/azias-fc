@@ -9,8 +9,6 @@ export const PlayerCard = ({
   position,
   age,
   isCaptain = false,
-  isGoalkeeper = false,
-  stats,
   className,
 }: PlayerCardProps) => {
   return (
@@ -25,8 +23,8 @@ export const PlayerCard = ({
       {/* captain badge */}
       {isCaptain && (
         <div className="absolute top-3 right-3 z-20">
-          <div className="bg-yellow-500 text-yellow-900 text-xs font-bold px-3 py-1 rounded-full shadow-lg">
-            ⭐ Capitão
+          <div className="bg-secondary text-secondary-foreground text-xs font-bold px-3 py-1 rounded-full shadow-lg">
+            Capitão
           </div>
         </div>
       )}
@@ -56,28 +54,17 @@ export const PlayerCard = ({
       <CardContent className="px-3 py-0">
         {/* Player name and position */}
         <div className="mb-4">
-          <h3 className="text-xl font-bold truncate">{name}</h3>
-          <div className="flex items-center gap-2 mt-1">
-            <span className="text-sm font-semibold text-primary bg-primary/10 px-3 py-1 rounded-full">
-              {position}
-            </span>
-            {isGoalkeeper && (
-              <span className="text-xs bg-blue-500/20 text-blue-700 px-2 py-1 rounded-full">
-                🧤 Guarda-redes
-              </span>
+          <h3 className="text-xl font-bold truncate">
+            {name}
+            {age && (
+              <span className="text-base font-normal"> - {age} anos</span>
             )}
-          </div>
+          </h3>
         </div>
 
         {/* Player additional info */}
-        <div className="space-y-3">
-          {/* Nationality and age */}
-          <div className="flex items-center justify-between text-sm text-muted-foreground">
-            {age && <span>{age} anos</span>}
-          </div>
-
-          {/* Player stats (optional) */}
-          {stats && (
+        {/* <div className="space-y-3"> */}
+        {/* {stats && (
             <div className="grid grid-cols-3 gap-2 pt-3 border-t">
               {stats.matches !== undefined && (
                 <div className="text-center">
@@ -104,8 +91,8 @@ export const PlayerCard = ({
                 </div>
               )}
             </div>
-          )}
-        </div>
+          )} */}
+        {/* </div> */}
       </CardContent>
     </Card>
   );
