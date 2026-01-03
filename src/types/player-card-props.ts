@@ -1,7 +1,7 @@
 export type PlayerCardProps = {
   imageUrl: string;
   name: string;
-  number: number;
+  number: number | null;
   age?: number | null;
   isCaptain?: boolean;
   stats?: {

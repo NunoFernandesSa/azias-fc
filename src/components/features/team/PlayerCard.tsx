@@ -15,7 +15,7 @@ export const PlayerCard = ({
       className={cn(
         "group relative overflow-hidden rounded-xl border-2 hover:border-primary transition-all duration-300 hover:shadow-2xl",
         "bg-gradient-to-b from-background to-muted/50 gap-2 py-0",
-        "transform hover:-translate-y-2 transition-transform",
+        "transform hover:-translate-y-2 transition-transform bg-primary text-primary-foreground",
         className
       )}
     >
@@ -53,11 +53,9 @@ export const PlayerCard = ({
       <CardContent className="px-3 py-0">
         {/* Player name and position */}
         <div className="mb-4">
-          <h3 className="text-xl font-bold truncate">
+          <h3 className="text-xl font-bold truncate flex flex-col">
             {name}
-            {age && (
-              <span className="text-base font-normal"> - {age} anos</span>
-            )}
+            {age && <span className="text-base font-normal"> {age} anos</span>}
           </h3>
         </div>
 
