@@ -5,7 +5,6 @@ import type { PlayerCardProps } from "@/types/index";
 export const PlayerCard = ({
   imageUrl,
   name,
-  number,
   age,
   isCaptain = false,
   className,
@@ -29,11 +28,11 @@ export const PlayerCard = ({
       )}
 
       {/* play number */}
-      <div className="absolute top-3 left-3 z-20">
+      {/* <div className="absolute top-3 left-3 z-20">
         <div className="bg-primary text-primary-foreground text-2xl font-bold w-12 h-12 rounded-full flex items-center justify-center shadow-lg border-2 border-white">
           {number}
         </div>
-      </div>
+      </div> */}
 
       {/* Container image */}
       <div className="relative overflow-hidden">
