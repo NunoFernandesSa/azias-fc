@@ -15,8 +15,6 @@ import {
   Team,
   CalendarAndResults,
   Contact,
-  PartnersAndSponsors,
-  Gallery,
   Store,
 } from "@/pages/index.ts";
 
@@ -27,9 +25,7 @@ const router = createBrowserRouter([
     children: [
       { path: "/", element: <Home /> },
       { path: "/equipa", element: <Team /> },
-      { path: "/galeria", element: <Gallery /> },
       { path: "/calendario", element: <CalendarAndResults /> },
-      { path: "/patrocinadores", element: <PartnersAndSponsors /> },
       { path: "/contacto", element: <Contact /> },
       { path: "/loja", element: <Store /> },
     ],

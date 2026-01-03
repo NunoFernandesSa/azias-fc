@@ -56,7 +56,7 @@ export function HomePageSponsorsSection() {
             size={"lg"}
             className="my-6 w-full md:w-1/2 lg:w-1/3"
           >
-            <Link to="/patrocinadores">Torne-se patrocinador</Link>
+            <Link to="/contacto">Torne-se patrocinador</Link>
           </Button>
         </CardContent>
         <CardFooter className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 xl:grid-cols-6 gap-4">

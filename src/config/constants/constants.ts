@@ -16,21 +16,11 @@ export const navLinks = [
   },
   {
     id: 4,
-    label: "Galeria",
-    href: "/galeria",
-  },
-  {
-    id: 5,
     label: "Loja",
     href: "/loja",
   },
   {
-    id: 6,
-    label: "Patrocinadores",
-    href: "/patrocinadores",
-  },
-  {
-    id: 7,
+    id: 5,
     label: "Contacto",
     href: "/contacto",
   },
