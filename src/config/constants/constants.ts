@@ -36,18 +36,6 @@ export const navLinks = [
   },
 ];
 
-export const match = {
-  championship: "Campeonato INATEL",
-  date: "Domingo, 14 Dezembro 2025",
-  time: "12:00",
-  teamPlayingAtHome: "Azias FC",
-  teamPlayingAway: "FC Azias",
-  address: "Campo da Manguela, AZIAS Ponte da Barca",
-  teamPlayingAtHomeLogo: "/azias-fc-logo.png",
-  teamPlayingAwayLogo: "/azias-fc-logo.png",
-  playAtHome: true,
-};
-
 export const sponsors = [
   {
     id: 0,
@@ -92,7 +80,7 @@ export const calendar = [
   {
     id: 0,
     match: {
-      championship: "Campeonato INATEL",
+      championship: "Liga INATEL",
       jornada: 1,
       date: "Domingo, 14 Dezembro 2025",
       hour: "12:00",
@@ -113,7 +101,7 @@ export const calendar = [
   {
     id: 1,
     match: {
-      championship: "Campeonato INATEL",
+      championship: "Liga INATEL",
       jornada: 2,
       date: "Domingo, 14 Dezembro 2025",
       hour: "12:00",
@@ -134,7 +122,7 @@ export const calendar = [
   {
     id: 2,
     match: {
-      championship: "Campeonato INATEL",
+      championship: "Liga INATEL",
       jornada: 3,
       date: "Domingo, 14 Dezembro 2025",
       hour: "12:00",
@@ -155,7 +143,7 @@ export const calendar = [
   {
     id: 3,
     match: {
-      championship: "Campeonato INATEL",
+      championship: "Liga INATEL",
       jornada: 4,
       date: "Domingo, 14 Dezembro 2025",
       hour: "12:00",
@@ -176,7 +164,7 @@ export const calendar = [
   {
     id: 4,
     match: {
-      championship: "Campeonato INATEL",
+      championship: "Liga INATEL",
       jornada: 5,
       date: "Domingo, 14 Dezembro 2025",
       hour: "12:00",
@@ -197,7 +185,7 @@ export const calendar = [
   {
     id: 5,
     match: {
-      championship: "Campeonato INATEL",
+      championship: "Liga INATEL",
       jornada: 6,
       date: "Domingo, 14 Dezembro 2025",
       hour: "12:00",
@@ -218,7 +206,7 @@ export const calendar = [
   {
     id: 6,
     match: {
-      championship: "Campeonato INATEL",
+      championship: "Liga INATEL",
       jornada: 7,
       date: "Domingo, 14 Dezembro 2025",
       hour: "12:00",
@@ -239,7 +227,7 @@ export const calendar = [
   {
     id: 7,
     match: {
-      championship: "Campeonato INATEL",
+      championship: "Liga INATEL",
       jornada: 8,
       date: "Domingo, 14 Dezembro 2025",
       hour: "12:00",
@@ -260,7 +248,7 @@ export const calendar = [
   {
     id: 8,
     match: {
-      championship: "Campeonato INATEL",
+      championship: "Liga INATEL",
       jornada: 9,
       date: "Domingo, 14 Dezembro 2025",
       hour: "12:00",
@@ -281,7 +269,7 @@ export const calendar = [
   {
     id: 9,
     match: {
-      championship: "Campeonato INATEL",
+      championship: "Liga INATEL",
       jornada: 10,
       date: "Domingo, 14 Dezembro 2025",
       hour: "12:00",
@@ -302,7 +290,7 @@ export const calendar = [
   {
     id: 10,
     match: {
-      championship: "Campeonato INATEL",
+      championship: "Liga INATEL",
       jornada: 11,
       date: "Domingo, 14 Dezembro 2025",
       hour: "12:00",
@@ -323,7 +311,7 @@ export const calendar = [
   {
     id: 11,
     match: {
-      championship: "Campeonato INATEL",
+      championship: "Liga INATEL",
       jornada: 12,
       date: "Domingo, 14 Dezembro 2025",
       hour: "12:00",
@@ -344,7 +332,7 @@ export const calendar = [
   {
     id: 12,
     match: {
-      championship: "Campeonato INATEL",
+      championship: "Liga INATEL",
       jornada: 13,
       date: "Domingo, 14 Dezembro 2025",
       hour: "12:00",
