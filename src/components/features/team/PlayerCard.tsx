@@ -17,7 +17,7 @@ export const PlayerCard = ({
     <Card
       className={cn(
         "group relative overflow-hidden rounded-xl border-2 hover:border-primary transition-all duration-300 hover:shadow-2xl",
-        "bg-gradient-to-b from-background to-muted/50",
+        "bg-gradient-to-b from-background to-muted/50 gap-2 pt-0",
         "transform hover:-translate-y-2 transition-transform",
         className
       )}
@@ -39,7 +39,7 @@ export const PlayerCard = ({
       </div>
 
       {/* Container image */}
-      <div className="relative h-64 overflow-hidden">
+      <div className="relative overflow-hidden">
         {/* Gradient overlay */}
         <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent z-10" />
 
@@ -47,13 +47,13 @@ export const PlayerCard = ({
         <img
           src={imageUrl}
           alt={`${name} - ${position}`}
-          className="w-full h-full object-cover object-top group-hover:scale-105 transition-transform duration-500"
+          className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
           loading="lazy"
         />
       </div>
 
       {/* Content */}
-      <CardContent className="p-6">
+      <CardContent className="px-3 py-0">
         {/* Player name and position */}
         <div className="mb-4">
           <h3 className="text-xl font-bold truncate">{name}</h3>
