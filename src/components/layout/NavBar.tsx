@@ -75,7 +75,7 @@ export function Navbar() {
           </Link>
 
           {/* ---------- Desktop Nav ---------- */}
-          <div className="flex flex-col items-center justify-center gap-2 mt-6">
+          <div className="w-full flex flex-col items-center justify-center gap-6 mt-16">
             {navLinks.map(({ href, label, id }) => (
               <NavLink
                 key={id}
@@ -85,7 +85,6 @@ export function Navbar() {
     relative overflow-hidden
     font-semibold text-md
     px-6 py-3 w-full
-    rounded-lg
 
     transition-colors duration-300 ease-out
 
