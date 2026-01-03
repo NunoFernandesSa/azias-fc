@@ -10,7 +10,9 @@ import { Coaches } from "@/config/constants/constants";
 export function Team() {
   return (
     <Container className="mx-3 lg:mx-16 my-30 lg:my-16 pt-6 lg:pt-0">
-      <Title className="text-primary text-center mb-12">A Nossa Equipa</Title>
+      <Title className="text-primary text-center mb-12">
+        A Nossa Equipa 2025/2026
+      </Title>
 
       <PlayersSection sectionName="Guarda-redes">
         {Goalkeepers.map((player) => (
