@@ -8,16 +8,6 @@ export function Footer() {
         <img src="/logo-inatel.webp" alt="Logo Inatel" className="w-36" />
       </div>
 
-      {/* <div className="flex items-center justify-center gap-6">
-        <Link to="https://www.facebook.com/aziasfc" target="_blank">
-          <FaFacebook size={30} />
-        </Link>
-
-        <Link to="https://www.instagram.com/aziasfc" target="_blank">
-          <FaInstagram size={30} />
-        </Link>
-      </div> */}
-
       <div className="container mx-auto h-16 flex flex-col md:flex-row items-center justify-between">
         <p className="text-sm">
           &copy; {new Date().getFullYear()} Azias FC - Todos os direitos
