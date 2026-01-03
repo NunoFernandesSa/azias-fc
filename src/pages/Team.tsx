@@ -5,7 +5,7 @@ import { Goalkeepers } from "@/config/constants/constants";
 import { Defenders } from "@/config/constants/constants";
 import { Midfielders } from "@/config/constants/constants";
 import { Forwards } from "@/config/constants/constants";
-import { coaches } from "@/config/constants/constants";
+import { Coaches } from "@/config/constants/constants";
 
 export function Team() {
   return (
@@ -37,7 +37,7 @@ export function Team() {
       </PlayersSection>
 
       <PlayersSection sectionName="Treinadores">
-        {coaches.map((coach) => (
+        {Coaches.map((coach) => (
           <PlayerCard key={coach.id} {...coach} />
         ))}
       </PlayersSection>
