@@ -5,6 +5,7 @@ import { Goalkeepers } from "@/config/constants/constants";
 import { Defenders } from "@/config/constants/constants";
 import { Midfielders } from "@/config/constants/constants";
 import { Forwards } from "@/config/constants/constants";
+import { coaches } from "@/config/constants/constants";
 
 export function Team() {
   return (
@@ -32,6 +33,12 @@ export function Team() {
       <PlayersSection sectionName="Avançados">
         {Forwards.map((player) => (
           <PlayerCard key={player.id} {...player} />
+        ))}
+      </PlayersSection>
+
+      <PlayersSection sectionName="Treinadores">
+        {coaches.map((coach) => (
+          <PlayerCard key={coach.id} {...coach} />
         ))}
       </PlayersSection>
     </Container>
