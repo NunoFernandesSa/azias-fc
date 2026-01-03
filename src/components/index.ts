@@ -16,7 +16,6 @@ export * from "@/components/layout/Hero";
 export * from "@/components/layout/NavBar";
 export * from "@/components/layout/Footer";
 export * from "@/components/layout/CalendarFilterComponent";
-export * from "@/components/layout/LoadingScreen";
 
 // ---------- Features Matches ----------
 export * from "@/components/features/matches/NextMatchCard";
@@ -40,3 +39,4 @@ export * from "@/components/features/sponsors/HomePageSponsorsSection";
 
 // ---------- Common ----------
 export * from "@/components/features/common/Title";
+export * from "@/components/features/common/LoadingScreen";

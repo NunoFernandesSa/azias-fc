@@ -15,7 +15,7 @@ export const PlayerCard = ({
     <Card
       className={cn(
         "group relative overflow-hidden rounded-xl border-2 hover:border-primary transition-all duration-300 hover:shadow-2xl",
-        "bg-gradient-to-b from-background to-muted/50 gap-2 pt-0",
+        "bg-gradient-to-b from-background to-muted/50 gap-2 py-0",
         "transform hover:-translate-y-2 transition-transform",
         className
       )}
@@ -23,7 +23,7 @@ export const PlayerCard = ({
       {/* captain badge */}
       {isCaptain && (
         <div className="absolute top-3 right-3 z-20">
-          <div className="bg-secondary text-secondary-foreground text-xs font-bold px-3 py-1 rounded-full shadow-lg">
+          <div className="bg-secondary text-secondary-foreground text-xs font-bold px-3 py-1 rounded-full shadow-lg border border-primary">
             Capitão
           </div>
         </div>
