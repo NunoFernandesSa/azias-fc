@@ -6,7 +6,6 @@ export const PlayerCard = ({
   imageUrl,
   name,
   number,
-  position,
   age,
   isCaptain = false,
   className,
@@ -44,7 +43,7 @@ export const PlayerCard = ({
         {/* Player image */}
         <img
           src={imageUrl}
-          alt={`${name} - ${position}`}
+          alt={`${name}`}
           className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
           loading="lazy"
         />

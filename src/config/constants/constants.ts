@@ -359,3 +359,114 @@ export const calendar = [
     },
   },
 ];
+
+export const Goalkeepers = [
+  {
+    id: 1,
+    imageUrl: "/images/players/player-exemple.jpg",
+    name: "Leandro",
+    number: 1,
+    age: 23,
+    isCaptain: false,
+    stats: { matches: 0, goals: 0, assists: 0 },
+  },
+  {
+    id: 2,
+    imageUrl: "/images/players/player-exemple.jpg",
+    name: "Koké",
+    number: 2,
+    age: 31,
+    isCaptain: false,
+    stats: { matches: 0, goals: 0, assists: 0 },
+  },
+];
+
+export const Defenders = [
+  {
+    id: 1,
+    imageUrl: "/images/players/player-exemple.jpg",
+    name: "Marcus",
+    number: 0,
+    age: 38,
+    isCaptain: false,
+    stats: { matches: 0, goals: 0, assists: 0 },
+  },
+  {
+    id: 2,
+    imageUrl: "/images/players/player-exemple.jpg",
+    name: "Pura Jr",
+    number: 0,
+    age: 19,
+    isCaptain: false,
+    stats: { matches: 0, goals: 0, assists: 0 },
+  },
+  {
+    id: 3,
+    imageUrl: "/images/players/player-exemple.jpg",
+    name: "Russo",
+    number: 0,
+    age: 45,
+    isCaptain: false,
+    stats: { matches: 0, goals: 0, assists: 0 },
+  },
+  {
+    id: 4,
+    imageUrl: "/images/players/player-exemple.jpg",
+    name: "Pura",
+    number: 0,
+    age: 24,
+    isCaptain: false,
+    stats: { matches: 0, goals: 0, assists: 0 },
+  },
+  {
+    id: 5,
+    imageUrl: "/images/players/player-exemple.jpg",
+    name: "Berna",
+    number: 0,
+    age: 22,
+    isCaptain: false,
+    stats: { matches: 0, goals: 0, assists: 0 },
+  },
+  {
+    id: 6,
+    imageUrl: "/images/players/player-exemple.jpg",
+    name: "Vitor",
+    number: 0,
+    age: 22,
+    isCaptain: false,
+    stats: { matches: 0, goals: 0, assists: 0 },
+  },
+  {
+    id: 7,
+    imageUrl: "/images/players/player-exemple.jpg",
+    name: "Miguel",
+    number: 0,
+    age: 21,
+    isCaptain: false,
+    stats: { matches: 0, goals: 0, assists: 0 },
+  },
+];
+
+export const Midfielders = [
+  {
+    id: 1,
+    imageUrl: "/images/players/player-exemple.jpg",
+    name: "",
+    number: 0,
+    age: 0,
+    isCaptain: false,
+    stats: { matches: 0, goals: 0, assists: 0 },
+  },
+];
+
+export const Forwards = [
+  {
+    id: 1,
+    imageUrl: "/images/players/player-exemple.jpg",
+    name: "",
+    number: 0,
+    age: 0,
+    isCaptain: false,
+    stats: { matches: 0, goals: 0, assists: 0 },
+  },
+];
