@@ -12,7 +12,6 @@ import App from "./App.tsx";
 // ---------- Routes ----------
 import {
   Home,
-  Club,
   Team,
   CalendarAndResults,
   Contact,
@@ -27,7 +26,6 @@ const router = createBrowserRouter([
     element: <App />, // layout global
     children: [
       { path: "/", element: <Home /> },
-      { path: "/clube", element: <Club /> },
       { path: "/equipa", element: <Team /> },
       { path: "/galeria", element: <Gallery /> },
       { path: "/calendario", element: <CalendarAndResults /> },

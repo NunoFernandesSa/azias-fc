@@ -36,3 +36,6 @@ export * from "@/components/features/team/HomePageTeamSection";
 
 // ---------- Features Sponsors ----------
 export * from "@/components/features/sponsors/HomePageSponsorsSection";
+
+// ---------- Common ----------
+export * from "@/components/features/common/Title";
