@@ -5,9 +5,9 @@ import { CalendarIcon, Phone } from "lucide-react";
 // ---------- components ----------
 import { Button, Container, HeroBackground } from "@/components/index.ts";
 // ---------- images ----------
-import HeroWebp from "/public/images/optimized/bg-hero.webp";
-import HeroJpg from "/public/images/optimized/bg-hero.jpg";
-import HeroMobileWebp from "/public/images/optimized/bg-hero-mobile.webp";
+import HeroWebp from "/images/optimized/bg-hero.webp";
+import HeroJpg from "/images/optimized/bg-hero.jpg";
+import HeroMobileWebp from "/images/optimized/bg-hero-mobile.webp";
 
 export function Hero() {
   return (
