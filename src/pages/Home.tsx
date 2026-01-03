@@ -53,9 +53,7 @@ export function Home() {
         <HomePageAboutSection />
       </Container>
 
-      <Container className="mx-3 lg:mx-16 my-16 lg:my-16">
-        <HomePageSponsorsSection />
-      </Container>
+      <HomePageSponsorsSection />
 
       <HomePageContactInfos />
     </>
